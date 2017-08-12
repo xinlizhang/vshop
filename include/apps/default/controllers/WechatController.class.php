@@ -151,7 +151,15 @@ class WechatController extends CommonController
             if (empty($info)) {
                 $info = array();
             }
-            
+            else {
+	   	 $info['nickname'] = preg_replace_callback(
+          	 '/./u',
+           	 function (array $match) {
+               	 return strlen($match[0]) >= 4 ? '' : $match[0];
+           	 },
+           	 $info['nickname']);
+	    }
+ 
             // 查找用户是否存在
             $where['openid'] = $openid;
             $rs = $this->model->table('wechat_user')

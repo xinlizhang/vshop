@@ -107,7 +107,15 @@ class weixin {
         if (!empty($code)) {
 	    $token = $this->weObj->getOauthAccessToken();
             $userinfo = $this->weObj->getOauthUserinfo($token['access_token'], $token['openid']);
-            $_SESSION['wechat_user'] = empty($userinfo) ? array() : $userinfo;
+
+            $userinfo['nickname'] = preg_replace_callback(
+            '/./u',
+            function (array $match) {
+                return strlen($match[0]) >= 4 ? '' : $match[0];
+            },
+            $userinfo['nickname']);
+
+	    $_SESSION['wechat_user'] = empty($userinfo) ? array() : $userinfo;
 			if(!empty($userinfo)){
 				//公众号信息
 				$wechat = model('Base')->model->table('wechat')->field('id, oauth_status')->where(array('type'=>2, 'status'=>1, 'default_wx'=>1))->find();
