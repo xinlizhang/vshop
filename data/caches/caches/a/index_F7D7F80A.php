@@ -1,10 +1,10 @@
-<?php exit;?>a:3:{s:8:"template";a:5:{i:0;s:40:"/data/web/vshop/themes/default/index.dwt";i:1;s:52:"/data/web/vshop/themes/default/library/cat_goods.lbi";i:2;s:58:"/data/web/vshop/themes/default/library/page_index_menu.lbi";i:3;s:55:"/data/web/vshop/themes/default/library/search_index.lbi";i:4;s:54:"/data/web/vshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1502452308;s:8:"maketime";i:1502448708;}<!DOCTYPE html>
+<?php exit;?>a:3:{s:8:"template";a:5:{i:0;s:40:"/data/web/vshop/themes/default/index.dwt";i:1;s:52:"/data/web/vshop/themes/default/library/cat_goods.lbi";i:2;s:58:"/data/web/vshop/themes/default/library/page_index_menu.lbi";i:3;s:55:"/data/web/vshop/themes/default/library/search_index.lbi";i:4;s:54:"/data/web/vshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1503309670;s:8:"maketime";i:1503306070;}<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta name="Generator" content="ECTouch 2.2.25" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>超亿海鲜</title>
+<title>超亿生鲜</title>
 <link rel="stylesheet" type="text/css" href="__PUBLIC__/swiper/css/swiper.min.css"/>
 <link rel="stylesheet" href="__PUBLIC__/bootstrap/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="__TPL__/css/index.css"/>
@@ -27,7 +27,7 @@
 	</div>
 </div-->
 <!--header class="index-header comWidth">
-  <i class="index-header-menu iconfont fl" onclick="window.location = '/vshop/index.php?m=default&c=category&a=top_all&u=76'">&#xe627;</i>
+  <i class="index-header-menu iconfont fl" onclick="window.location = '/vshop/index.php?m=default&c=category&a=top_all&u=77'">&#xe627;</i>
   <div class="index-search-box fl">
     <input type="text" class="index-search-input" placeholder="商品搜索" onclick="openSearch();">
     <a href="javascript:void(0)" id="translateVoice" style="display:None;"><i class="index-search-sound iconfont fr">&#xe623;</i></a>
@@ -74,24 +74,6 @@
   <div class="index-theme" style="display:none">
       <ul class="index-more-list">
       
-<div class="index-more-icon"><span>鱼</span></div>
-     
-    <div class="single_item">
-        <li class="fl" style="background-color: #FFFFFF;">
-          <a href="/vshop/index.php?m=default&c=goods&a=index&id=77&u=76"><img src="http://www.disanqiche.com/vshop/images/201706/goods_img/77_G_1497650529858.jpg" alt="三文鱼" /></a>
-      <a href="/vshop/index.php?m=default&c=goods&a=index&id=77&u=76"><p>三文鱼</p></a>
-      <span>￥0.00/500g元</span>
-    </li>
-    </div>
-     
-    <div class="single_item">
-        <li class="fr" style="background-color: #FFFFFF;">
-          <a href="/vshop/index.php?m=default&c=goods&a=index&id=52&u=76"><img src="http://www.disanqiche.com/vshop/images/201706/goods_img/52_G_1497573931494.jpg" alt="八爪鱼" /></a>
-      <a href="/vshop/index.php?m=default&c=goods&a=index&id=52&u=76"><p>八爪鱼</p></a>
-      <span>￥0.00/500g元</span>
-    </li>
-    </div>
-     
       </ul>
   </div-->
 	<div class="index-more">
@@ -106,11 +88,11 @@
 </div>
 <footer class="index-footer comWidth">
 	<ul>
-	<li class="fl index-footer-list"><a href="/vshop/index.php?m=default&c=index&a=index&u=76"><i class="iconfont">&#xe621;</i><span>首页</span></a></li>
-	<li class="fl index-footer-list"><a href="/vshop/index.php?m=default&c=category&a=top_all&u=76"><i class="iconfont">&#xe627;</i><span>分类</span></a></li>
+	<li class="fl index-footer-list"><a href="/vshop/index.php?m=default&c=index&a=index&u=77"><i class="iconfont">&#xe621;</i><span>首页</span></a></li>
+	<li class="fl index-footer-list"><a href="/vshop/index.php?m=default&c=category&a=top_all&u=77"><i class="iconfont">&#xe627;</i><span>分类</span></a></li>
 	<li class="fl index-footer-list"><a href="javascript:openSearch();"><i class="iconfont">&#xe617;</i><span>搜索</span></a></li>
-	<li class="fl index-footer-list"><a href="/vshop/index.php?m=default&c=flow&a=cart&u=76"><i class="iconfont">&#xe626;</i><span>购物车</span></a></li>
-		<li class="fl index-footer-list"><a href="/vshop/index.php?m=default&c=user&a=index&u=76"><i class="iconfont">&#xe625;</i><span>用户中心</span></a></li>
+	<li class="fl index-footer-list"><a href="/vshop/index.php?m=default&c=flow&a=cart&u=77"><i class="iconfont">&#xe626;</i><span>购物车</span></a></li>
+		<li class="fl index-footer-list"><a href="/vshop/index.php?m=default&c=user&a=index&u=77"><i class="iconfont">&#xe625;</i><span>用户中心</span></a></li>
 		
 </ul></footer>
 </div>
@@ -119,7 +101,7 @@
 		<header class="ect-header ect-margin-tb ect-margin-lr text-center"><span>搜索</span><a href="javascript:;" class="herder-close" onClick="closeSearch();">×</a></header>
 	</div>
 	<div class="ect-padding-lr">
-		<form action="/vshop/index.php?m=default&c=category&a=index&u=76"  method="post" id="searchForm" name="searchForm">
+		<form action="/vshop/index.php?m=default&c=category&a=index&u=77"  method="post" id="searchForm" name="searchForm">
 		<div class="input-search"> <span>
 			<input name="keywords" type="search" placeholder="请输入搜索关键词！" autofocus="autofocus" id="keywordBox">
 			</span>
@@ -176,7 +158,7 @@
 	}
 </script>
 <script type="text/javascript">
-get_asynclist("/vshop/index.php?m=default&c=index&a=ajax_goods&type=best&u=76" , '__TPL__/images/loader.gif');
+get_asynclist("/vshop/index.php?m=default&c=index&a=ajax_goods&type=best&u=77" , '__TPL__/images/loader.gif');
 </script>
 <script>
 	/*立即关注*/

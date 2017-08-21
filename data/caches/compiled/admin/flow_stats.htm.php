@@ -12,13 +12,13 @@
   </form>
     <form action="" method="post" id="selectForm" name="selectForm">
     <?php echo $this->_var['lang']['select_year_month']; ?>&nbsp;&nbsp;
-    <!--<?php $_from = $this->_var['start_date_arr']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('k', 'start_date_0_17785800_1502420270');if (count($_from)):
-    foreach ($_from AS $this->_var['k'] => $this->_var['start_date_0_17785800_1502420270']):
+    <!--<?php $_from = $this->_var['start_date_arr']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('k', 'start_date_0_83640800_1502802312');if (count($_from)):
+    foreach ($_from AS $this->_var['k'] => $this->_var['start_date_0_83640800_1502802312']):
 ?>-->
     <?php if ($this->_var['k'] > 0): ?>
     &nbsp;+&nbsp;
     <?php endif; ?>
-    <input name="year_month[]" value="<?php echo $this->_var['start_date_0_17785800_1502420270']; ?>" style="width:60px;" onclick="return showCalendar(this, '%Y-%m', false, false, this);" />
+    <input name="year_month[]" value="<?php echo $this->_var['start_date_0_83640800_1502802312']; ?>" style="width:60px;" onclick="return showCalendar(this, '%Y-%m', false, false, this);" />
     <!--<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>--><input type="hidden" name="is_multi" value="1" />
     <input type="submit" name="submit" value="<?php echo $this->_var['lang']['access_query']; ?>" class="button" />
   </form>
