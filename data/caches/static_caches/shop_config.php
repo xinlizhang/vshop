@@ -115,7 +115,7 @@ $data = array (
   'invoice_content' => '',
   'anonymous_buy' => '1',
   'min_goods_amount' => 18,
-  'one_step_buy' => 1,
+  'one_step_buy' => 0,
   'invoice_type' => 
   array (
     'type' => 

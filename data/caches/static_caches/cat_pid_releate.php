@@ -2,32 +2,6 @@
 $data = array (
   0 => 
   array (
-    'cat_id' => '138',
-    'cat_name' => '鸡货',
-    'measure_unit' => '',
-    'parent_id' => '0',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '13',
-    'goods_num' => 0,
-  ),
-  1 => 
-  array (
-    'cat_id' => '168',
-    'cat_name' => '饮料',
-    'measure_unit' => '',
-    'parent_id' => '0',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '12',
-    'goods_num' => 0,
-  ),
-  2 => 
-  array (
     'cat_id' => '181',
     'cat_name' => '猪肉',
     'measure_unit' => '',
@@ -39,7 +13,7 @@ $data = array (
     'has_children' => '3',
     'goods_num' => 0,
   ),
-  3 => 
+  1 => 
   array (
     'cat_id' => '3',
     'cat_name' => '冻货',
@@ -52,7 +26,7 @@ $data = array (
     'has_children' => '13',
     'goods_num' => 0,
   ),
-  4 => 
+  2 => 
   array (
     'cat_id' => '153',
     'cat_name' => '肉卷',
@@ -65,7 +39,7 @@ $data = array (
     'has_children' => '3',
     'goods_num' => 0,
   ),
-  5 => 
+  3 => 
   array (
     'cat_id' => '187',
     'cat_name' => '精品水果',
@@ -78,7 +52,7 @@ $data = array (
     'has_children' => '18',
     'goods_num' => 0,
   ),
-  6 => 
+  4 => 
   array (
     'cat_id' => '13',
     'cat_name' => '海鲜',
@@ -91,7 +65,7 @@ $data = array (
     'has_children' => '5',
     'goods_num' => 0,
   ),
-  7 => 
+  5 => 
   array (
     'cat_id' => '14',
     'cat_name' => '蔬菜',
@@ -104,7 +78,7 @@ $data = array (
     'has_children' => '38',
     'goods_num' => 0,
   ),
-  8 => 
+  6 => 
   array (
     'cat_id' => '164',
     'cat_name' => '酒水',
@@ -115,6 +89,32 @@ $data = array (
     'grade' => '0',
     'sort_order' => '50',
     'has_children' => '3',
+    'goods_num' => 0,
+  ),
+  7 => 
+  array (
+    'cat_id' => '138',
+    'cat_name' => '鸡货',
+    'measure_unit' => '',
+    'parent_id' => '0',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '13',
+    'goods_num' => 0,
+  ),
+  8 => 
+  array (
+    'cat_id' => '168',
+    'cat_name' => '饮料',
+    'measure_unit' => '',
+    'parent_id' => '0',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '12',
     'goods_num' => 0,
   ),
   9 => 
@@ -158,45 +158,6 @@ $data = array (
   ),
   12 => 
   array (
-    'cat_id' => '41',
-    'cat_name' => '白蚬子',
-    'measure_unit' => '',
-    'parent_id' => '2',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  13 => 
-  array (
-    'cat_id' => '38',
-    'cat_name' => '毛蚶',
-    'measure_unit' => '',
-    'parent_id' => '2',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  14 => 
-  array (
-    'cat_id' => '35',
-    'cat_name' => '花螺',
-    'measure_unit' => '',
-    'parent_id' => '2',
-    'is_show' => '0',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => 0,
-  ),
-  15 => 
-  array (
     'cat_id' => '32',
     'cat_name' => '海虹',
     'measure_unit' => '',
@@ -208,7 +169,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  16 => 
+  13 => 
   array (
     'cat_id' => '39',
     'cat_name' => '扇贝',
@@ -221,7 +182,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  17 => 
+  14 => 
   array (
     'cat_id' => '36',
     'cat_name' => '花蚬子',
@@ -234,7 +195,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  18 => 
+  15 => 
   array (
     'cat_id' => '33',
     'cat_name' => '海螺',
@@ -247,7 +208,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  19 => 
+  16 => 
   array (
     'cat_id' => '10',
     'cat_name' => '贝壳',
@@ -260,7 +221,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  20 => 
+  17 => 
   array (
     'cat_id' => '40',
     'cat_name' => '生蚝',
@@ -273,7 +234,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  21 => 
+  18 => 
   array (
     'cat_id' => '37',
     'cat_name' => '黄蚬子',
@@ -286,7 +247,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  22 => 
+  19 => 
   array (
     'cat_id' => '34',
     'cat_name' => '红扇贝',
@@ -299,7 +260,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  23 => 
+  20 => 
   array (
     'cat_id' => '31',
     'cat_name' => '蛏子',
@@ -312,10 +273,49 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
+  21 => 
+  array (
+    'cat_id' => '41',
+    'cat_name' => '白蚬子',
+    'measure_unit' => '',
+    'parent_id' => '2',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
+  22 => 
+  array (
+    'cat_id' => '38',
+    'cat_name' => '毛蚶',
+    'measure_unit' => '',
+    'parent_id' => '2',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
+  23 => 
+  array (
+    'cat_id' => '35',
+    'cat_name' => '花螺',
+    'measure_unit' => '',
+    'parent_id' => '2',
+    'is_show' => '0',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
   24 => 
   array (
-    'cat_id' => '24',
-    'cat_name' => '鲅鱼',
+    'cat_id' => '48',
+    'cat_name' => '鱿鱼',
     'measure_unit' => '',
     'parent_id' => '3',
     'is_show' => '1',
@@ -327,8 +327,8 @@ $data = array (
   ),
   25 => 
   array (
-    'cat_id' => '48',
-    'cat_name' => '鱿鱼',
+    'cat_id' => '49',
+    'cat_name' => '厄瓜多尔虾',
     'measure_unit' => '',
     'parent_id' => '3',
     'is_show' => '1',
@@ -353,19 +353,6 @@ $data = array (
   ),
   27 => 
   array (
-    'cat_id' => '49',
-    'cat_name' => '厄瓜多尔虾',
-    'measure_unit' => '',
-    'parent_id' => '3',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  28 => 
-  array (
     'cat_id' => '25',
     'cat_name' => '大黄鱼',
     'measure_unit' => '',
@@ -377,7 +364,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  29 => 
+  28 => 
   array (
     'cat_id' => '53',
     'cat_name' => '虾仁',
@@ -390,7 +377,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  30 => 
+  29 => 
   array (
     'cat_id' => '50',
     'cat_name' => '青虾',
@@ -403,7 +390,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  31 => 
+  30 => 
   array (
     'cat_id' => '46',
     'cat_name' => '鳕鱼',
@@ -416,7 +403,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  32 => 
+  31 => 
   array (
     'cat_id' => '26',
     'cat_name' => '小嘴鱼',
@@ -429,7 +416,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  33 => 
+  32 => 
   array (
     'cat_id' => '43',
     'cat_name' => '青鱼',
@@ -442,7 +429,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  34 => 
+  33 => 
   array (
     'cat_id' => '47',
     'cat_name' => '大连野生海刀鱼',
@@ -455,7 +442,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  35 => 
+  34 => 
   array (
     'cat_id' => '27',
     'cat_name' => '小黄花鱼',
@@ -468,7 +455,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  36 => 
+  35 => 
   array (
     'cat_id' => '44',
     'cat_name' => '海兔',
@@ -481,20 +468,20 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  37 => 
+  36 => 
   array (
-    'cat_id' => '52',
-    'cat_name' => '龙虾',
+    'cat_id' => '24',
+    'cat_name' => '鲅鱼',
     'measure_unit' => '',
-    'parent_id' => '4',
-    'is_show' => '0',
+    'parent_id' => '3',
+    'is_show' => '1',
     'show_in_nav' => '0',
     'grade' => '0',
     'sort_order' => '50',
     'has_children' => '0',
-    'goods_num' => 0,
+    'goods_num' => '1',
   ),
-  38 => 
+  37 => 
   array (
     'cat_id' => '42',
     'cat_name' => '鲍鱼',
@@ -507,7 +494,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  39 => 
+  38 => 
   array (
     'cat_id' => '29',
     'cat_name' => '飞蟹',
@@ -520,7 +507,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  40 => 
+  39 => 
   array (
     'cat_id' => '54',
     'cat_name' => '竹节虾',
@@ -533,10 +520,23 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  41 => 
+  40 => 
   array (
     'cat_id' => '51',
     'cat_name' => '基围虾',
+    'measure_unit' => '',
+    'parent_id' => '4',
+    'is_show' => '0',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  41 => 
+  array (
+    'cat_id' => '52',
+    'cat_name' => '龙虾',
     'measure_unit' => '',
     'parent_id' => '4',
     'is_show' => '0',
@@ -561,19 +561,6 @@ $data = array (
   ),
   43 => 
   array (
-    'cat_id' => '56',
-    'cat_name' => '海蜇',
-    'measure_unit' => '',
-    'parent_id' => '6',
-    'is_show' => '0',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => 0,
-  ),
-  44 => 
-  array (
     'cat_id' => '57',
     'cat_name' => '蚬肉',
     'measure_unit' => '',
@@ -585,7 +572,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  45 => 
+  44 => 
   array (
     'cat_id' => '55',
     'cat_name' => '海参',
@@ -598,33 +585,20 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  46 => 
+  45 => 
   array (
-    'cat_id' => '5',
-    'cat_name' => '蟹',
+    'cat_id' => '56',
+    'cat_name' => '海蜇',
     'measure_unit' => '',
-    'parent_id' => '13',
+    'parent_id' => '6',
     'is_show' => '0',
     'show_in_nav' => '0',
     'grade' => '0',
     'sort_order' => '50',
-    'has_children' => '1',
+    'has_children' => '0',
     'goods_num' => 0,
   ),
-  47 => 
-  array (
-    'cat_id' => '2',
-    'cat_name' => '贝壳',
-    'measure_unit' => '',
-    'parent_id' => '13',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '12',
-    'goods_num' => 0,
-  ),
-  48 => 
+  46 => 
   array (
     'cat_id' => '6',
     'cat_name' => '干货',
@@ -637,7 +611,7 @@ $data = array (
     'has_children' => '3',
     'goods_num' => 0,
   ),
-  49 => 
+  47 => 
   array (
     'cat_id' => '4',
     'cat_name' => '虾、蟹、鲍鱼',
@@ -650,7 +624,7 @@ $data = array (
     'has_children' => '5',
     'goods_num' => 0,
   ),
-  50 => 
+  48 => 
   array (
     'cat_id' => '1',
     'cat_name' => '鱼',
@@ -663,12 +637,12 @@ $data = array (
     'has_children' => '3',
     'goods_num' => 0,
   ),
-  51 => 
+  49 => 
   array (
-    'cat_id' => '77',
-    'cat_name' => '辣椒',
+    'cat_id' => '5',
+    'cat_name' => '蟹',
     'measure_unit' => '',
-    'parent_id' => '14',
+    'parent_id' => '13',
     'is_show' => '0',
     'show_in_nav' => '0',
     'grade' => '0',
@@ -676,85 +650,20 @@ $data = array (
     'has_children' => '1',
     'goods_num' => 0,
   ),
-  52 => 
+  50 => 
   array (
-    'cat_id' => '109',
-    'cat_name' => '荷兰豆',
+    'cat_id' => '2',
+    'cat_name' => '贝壳',
     'measure_unit' => '',
-    'parent_id' => '14',
-    'is_show' => '0',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '1',
-    'goods_num' => 0,
-  ),
-  53 => 
-  array (
-    'cat_id' => '158',
-    'cat_name' => '葱姜蒜',
-    'measure_unit' => '',
-    'parent_id' => '14',
+    'parent_id' => '13',
     'is_show' => '1',
     'show_in_nav' => '0',
     'grade' => '0',
     'sort_order' => '50',
-    'has_children' => '7',
+    'has_children' => '12',
     'goods_num' => 0,
   ),
-  54 => 
-  array (
-    'cat_id' => '122',
-    'cat_name' => '山药',
-    'measure_unit' => '',
-    'parent_id' => '14',
-    'is_show' => '0',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => 0,
-  ),
-  55 => 
-  array (
-    'cat_id' => '15',
-    'cat_name' => '芸豆',
-    'measure_unit' => '',
-    'parent_id' => '14',
-    'is_show' => '0',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '1',
-    'goods_num' => 0,
-  ),
-  56 => 
-  array (
-    'cat_id' => '100',
-    'cat_name' => '柿子',
-    'measure_unit' => '',
-    'parent_id' => '14',
-    'is_show' => '0',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => 0,
-  ),
-  57 => 
-  array (
-    'cat_id' => '132',
-    'cat_name' => '芋头',
-    'measure_unit' => '',
-    'parent_id' => '14',
-    'is_show' => '0',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '1',
-    'goods_num' => 0,
-  ),
-  58 => 
+  51 => 
   array (
     'cat_id' => '58',
     'cat_name' => '萝卜',
@@ -767,7 +676,33 @@ $data = array (
     'has_children' => '3',
     'goods_num' => 0,
   ),
-  59 => 
+  52 => 
+  array (
+    'cat_id' => '100',
+    'cat_name' => '柿子',
+    'measure_unit' => '',
+    'parent_id' => '14',
+    'is_show' => '0',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  53 => 
+  array (
+    'cat_id' => '132',
+    'cat_name' => '芋头',
+    'measure_unit' => '',
+    'parent_id' => '14',
+    'is_show' => '0',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '1',
+    'goods_num' => 0,
+  ),
+  54 => 
   array (
     'cat_id' => '65',
     'cat_name' => '葱',
@@ -780,7 +715,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  60 => 
+  55 => 
   array (
     'cat_id' => '81',
     'cat_name' => '菌类',
@@ -793,7 +728,7 @@ $data = array (
     'has_children' => '4',
     'goods_num' => 0,
   ),
-  61 => 
+  56 => 
   array (
     'cat_id' => '97',
     'cat_name' => '茼蒿菜',
@@ -806,7 +741,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  62 => 
+  57 => 
   array (
     'cat_id' => '113',
     'cat_name' => '空心菜',
@@ -819,46 +754,7 @@ $data = array (
     'has_children' => '1',
     'goods_num' => 0,
   ),
-  63 => 
-  array (
-    'cat_id' => '62',
-    'cat_name' => '菠菜',
-    'measure_unit' => '',
-    'parent_id' => '14',
-    'is_show' => '0',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => 0,
-  ),
-  64 => 
-  array (
-    'cat_id' => '94',
-    'cat_name' => '圆白菜',
-    'measure_unit' => '',
-    'parent_id' => '14',
-    'is_show' => '0',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '1',
-    'goods_num' => 0,
-  ),
-  65 => 
-  array (
-    'cat_id' => '126',
-    'cat_name' => '姜',
-    'measure_unit' => '',
-    'parent_id' => '14',
-    'is_show' => '0',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => 0,
-  ),
-  66 => 
+  58 => 
   array (
     'cat_id' => '159',
     'cat_name' => '“瓜”类',
@@ -871,7 +767,46 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  67 => 
+  59 => 
+  array (
+    'cat_id' => '62',
+    'cat_name' => '菠菜',
+    'measure_unit' => '',
+    'parent_id' => '14',
+    'is_show' => '0',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  60 => 
+  array (
+    'cat_id' => '94',
+    'cat_name' => '圆白菜',
+    'measure_unit' => '',
+    'parent_id' => '14',
+    'is_show' => '0',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '1',
+    'goods_num' => 0,
+  ),
+  61 => 
+  array (
+    'cat_id' => '126',
+    'cat_name' => '姜',
+    'measure_unit' => '',
+    'parent_id' => '14',
+    'is_show' => '0',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  62 => 
   array (
     'cat_id' => '75',
     'cat_name' => '蛋类',
@@ -884,7 +819,7 @@ $data = array (
     'has_children' => '2',
     'goods_num' => 0,
   ),
-  68 => 
+  63 => 
   array (
     'cat_id' => '91',
     'cat_name' => '娃娃菜',
@@ -897,7 +832,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  69 => 
+  64 => 
   array (
     'cat_id' => '107',
     'cat_name' => '冬瓜',
@@ -910,7 +845,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  70 => 
+  65 => 
   array (
     'cat_id' => '104',
     'cat_name' => '芹菜',
@@ -923,7 +858,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  71 => 
+  66 => 
   array (
     'cat_id' => '120',
     'cat_name' => '南瓜',
@@ -936,7 +871,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  72 => 
+  67 => 
   array (
     'cat_id' => '69',
     'cat_name' => '豆制品',
@@ -949,7 +884,7 @@ $data = array (
     'has_children' => '2',
     'goods_num' => 0,
   ),
-  73 => 
+  68 => 
   array (
     'cat_id' => '98',
     'cat_name' => '土豆',
@@ -962,7 +897,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  74 => 
+  69 => 
   array (
     'cat_id' => '130',
     'cat_name' => '油麦菜',
@@ -975,46 +910,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  75 => 
-  array (
-    'cat_id' => '63',
-    'cat_name' => '白菜',
-    'measure_unit' => '',
-    'parent_id' => '14',
-    'is_show' => '0',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => 0,
-  ),
-  76 => 
-  array (
-    'cat_id' => '79',
-    'cat_name' => '豇豆',
-    'measure_unit' => '',
-    'parent_id' => '14',
-    'is_show' => '0',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => 0,
-  ),
-  77 => 
-  array (
-    'cat_id' => '111',
-    'cat_name' => '角瓜',
-    'measure_unit' => '',
-    'parent_id' => '14',
-    'is_show' => '0',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => 0,
-  ),
-  78 => 
+  70 => 
   array (
     'cat_id' => '160',
     'cat_name' => '青菜',
@@ -1027,10 +923,10 @@ $data = array (
     'has_children' => '19',
     'goods_num' => 0,
   ),
-  79 => 
+  71 => 
   array (
-    'cat_id' => '124',
-    'cat_name' => '蒜苔',
+    'cat_id' => '63',
+    'cat_name' => '白菜',
     'measure_unit' => '',
     'parent_id' => '14',
     'is_show' => '0',
@@ -1040,7 +936,33 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  80 => 
+  72 => 
+  array (
+    'cat_id' => '79',
+    'cat_name' => '豇豆',
+    'measure_unit' => '',
+    'parent_id' => '14',
+    'is_show' => '0',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  73 => 
+  array (
+    'cat_id' => '111',
+    'cat_name' => '角瓜',
+    'measure_unit' => '',
+    'parent_id' => '14',
+    'is_show' => '0',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  74 => 
   array (
     'cat_id' => '157',
     'cat_name' => '绿叶菜',
@@ -1053,10 +975,10 @@ $data = array (
     'has_children' => '10',
     'goods_num' => 0,
   ),
-  81 => 
+  75 => 
   array (
-    'cat_id' => '73',
-    'cat_name' => '洋葱',
+    'cat_id' => '124',
+    'cat_name' => '蒜苔',
     'measure_unit' => '',
     'parent_id' => '14',
     'is_show' => '0',
@@ -1066,7 +988,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  82 => 
+  76 => 
   array (
     'cat_id' => '18',
     'cat_name' => '菜花',
@@ -1079,7 +1001,20 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  83 => 
+  77 => 
+  array (
+    'cat_id' => '73',
+    'cat_name' => '洋葱',
+    'measure_unit' => '',
+    'parent_id' => '14',
+    'is_show' => '0',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  78 => 
   array (
     'cat_id' => '86',
     'cat_name' => '茄子',
@@ -1092,7 +1027,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  84 => 
+  79 => 
   array (
     'cat_id' => '118',
     'cat_name' => '苦瓜',
@@ -1105,7 +1040,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  85 => 
+  80 => 
   array (
     'cat_id' => '134',
     'cat_name' => '蒜',
@@ -1118,7 +1053,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  86 => 
+  81 => 
   array (
     'cat_id' => '67',
     'cat_name' => '黄瓜',
@@ -1131,7 +1066,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  87 => 
+  82 => 
   array (
     'cat_id' => '83',
     'cat_name' => '韭菜',
@@ -1144,7 +1079,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  88 => 
+  83 => 
   array (
     'cat_id' => '96',
     'cat_name' => '茼蒿菜',
@@ -1155,6 +1090,71 @@ $data = array (
     'grade' => '0',
     'sort_order' => '50',
     'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  84 => 
+  array (
+    'cat_id' => '158',
+    'cat_name' => '葱姜蒜',
+    'measure_unit' => '',
+    'parent_id' => '14',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '7',
+    'goods_num' => 0,
+  ),
+  85 => 
+  array (
+    'cat_id' => '77',
+    'cat_name' => '辣椒',
+    'measure_unit' => '',
+    'parent_id' => '14',
+    'is_show' => '0',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '1',
+    'goods_num' => 0,
+  ),
+  86 => 
+  array (
+    'cat_id' => '109',
+    'cat_name' => '荷兰豆',
+    'measure_unit' => '',
+    'parent_id' => '14',
+    'is_show' => '0',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '1',
+    'goods_num' => 0,
+  ),
+  87 => 
+  array (
+    'cat_id' => '122',
+    'cat_name' => '山药',
+    'measure_unit' => '',
+    'parent_id' => '14',
+    'is_show' => '0',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  88 => 
+  array (
+    'cat_id' => '15',
+    'cat_name' => '芸豆',
+    'measure_unit' => '',
+    'parent_id' => '14',
+    'is_show' => '0',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '1',
     'goods_num' => 0,
   ),
   89 => 
@@ -1380,32 +1380,6 @@ $data = array (
   ),
   106 => 
   array (
-    'cat_id' => '142',
-    'cat_name' => '鸡翅中',
-    'measure_unit' => '',
-    'parent_id' => '138',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  107 => 
-  array (
-    'cat_id' => '152',
-    'cat_name' => '鸡胗',
-    'measure_unit' => '',
-    'parent_id' => '138',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => 0,
-  ),
-  108 => 
-  array (
     'cat_id' => '149',
     'cat_name' => '鸡心',
     'measure_unit' => '',
@@ -1417,7 +1391,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  109 => 
+  107 => 
   array (
     'cat_id' => '146',
     'cat_name' => '鸡全翅',
@@ -1430,7 +1404,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  110 => 
+  108 => 
   array (
     'cat_id' => '143',
     'cat_name' => '鸡大腿',
@@ -1443,7 +1417,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  111 => 
+  109 => 
   array (
     'cat_id' => '140',
     'cat_name' => '鸡翅尖',
@@ -1456,7 +1430,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  112 => 
+  110 => 
   array (
     'cat_id' => '150',
     'cat_name' => '鸡胸肉',
@@ -1469,7 +1443,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  113 => 
+  111 => 
   array (
     'cat_id' => '147',
     'cat_name' => '鸡头',
@@ -1482,7 +1456,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  114 => 
+  112 => 
   array (
     'cat_id' => '144',
     'cat_name' => '鸡肝',
@@ -1495,7 +1469,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  115 => 
+  113 => 
   array (
     'cat_id' => '141',
     'cat_name' => '鸡脖子',
@@ -1508,7 +1482,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  116 => 
+  114 => 
   array (
     'cat_id' => '151',
     'cat_name' => '鸡爪',
@@ -1521,7 +1495,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  117 => 
+  115 => 
   array (
     'cat_id' => '148',
     'cat_name' => '鸡小腿',
@@ -1534,7 +1508,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  118 => 
+  116 => 
   array (
     'cat_id' => '145',
     'cat_name' => '鸡骨架',
@@ -1547,12 +1521,12 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  119 => 
+  117 => 
   array (
-    'cat_id' => '155',
-    'cat_name' => '羊肉卷',
+    'cat_id' => '142',
+    'cat_name' => '鸡翅中',
     'measure_unit' => '',
-    'parent_id' => '153',
+    'parent_id' => '138',
     'is_show' => '1',
     'show_in_nav' => '0',
     'grade' => '0',
@@ -1560,7 +1534,20 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  120 => 
+  118 => 
+  array (
+    'cat_id' => '152',
+    'cat_name' => '鸡胗',
+    'measure_unit' => '',
+    'parent_id' => '138',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => 0,
+  ),
+  119 => 
   array (
     'cat_id' => '154',
     'cat_name' => '清真牛肉卷',
@@ -1573,7 +1560,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  121 => 
+  120 => 
   array (
     'cat_id' => '161',
     'cat_name' => '猪五花',
@@ -1586,33 +1573,20 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
+  121 => 
+  array (
+    'cat_id' => '155',
+    'cat_name' => '羊肉卷',
+    'measure_unit' => '',
+    'parent_id' => '153',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
   122 => 
-  array (
-    'cat_id' => '61',
-    'cat_name' => '菠菜',
-    'measure_unit' => '',
-    'parent_id' => '157',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  123 => 
-  array (
-    'cat_id' => '90',
-    'cat_name' => '小白菜',
-    'measure_unit' => '',
-    'parent_id' => '157',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  124 => 
   array (
     'cat_id' => '84',
     'cat_name' => '韭菜',
@@ -1625,7 +1599,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  125 => 
+  123 => 
   array (
     'cat_id' => '162',
     'cat_name' => '油白菜',
@@ -1638,7 +1612,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  126 => 
+  124 => 
   array (
     'cat_id' => '156',
     'cat_name' => '茼蒿菜',
@@ -1651,7 +1625,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  127 => 
+  125 => 
   array (
     'cat_id' => '95',
     'cat_name' => '大头菜',
@@ -1664,7 +1638,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  128 => 
+  126 => 
   array (
     'cat_id' => '92',
     'cat_name' => '精品娃娃菜',
@@ -1677,7 +1651,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  129 => 
+  127 => 
   array (
     'cat_id' => '105',
     'cat_name' => '芹菜',
@@ -1690,7 +1664,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  130 => 
+  128 => 
   array (
     'cat_id' => '131',
     'cat_name' => '油麦菜',
@@ -1703,7 +1677,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
-  131 => 
+  129 => 
   array (
     'cat_id' => '64',
     'cat_name' => '大白菜',
@@ -1716,46 +1690,33 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
+  130 => 
+  array (
+    'cat_id' => '61',
+    'cat_name' => '菠菜',
+    'measure_unit' => '',
+    'parent_id' => '157',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
+  131 => 
+  array (
+    'cat_id' => '90',
+    'cat_name' => '小白菜',
+    'measure_unit' => '',
+    'parent_id' => '157',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
   132 => 
-  array (
-    'cat_id' => '125',
-    'cat_name' => '蒜苔',
-    'measure_unit' => '',
-    'parent_id' => '158',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  133 => 
-  array (
-    'cat_id' => '74',
-    'cat_name' => '白洋葱',
-    'measure_unit' => '',
-    'parent_id' => '158',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  134 => 
-  array (
-    'cat_id' => '135',
-    'cat_name' => '蒜',
-    'measure_unit' => '',
-    'parent_id' => '158',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  135 => 
   array (
     'cat_id' => '66',
     'cat_name' => '大葱',
@@ -1768,7 +1729,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  136 => 
+  133 => 
   array (
     'cat_id' => '127',
     'cat_name' => '姜',
@@ -1781,7 +1742,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  137 => 
+  134 => 
   array (
     'cat_id' => '89',
     'cat_name' => '紫洋葱',
@@ -1794,7 +1755,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  138 => 
+  135 => 
   array (
     'cat_id' => '137',
     'cat_name' => '小葱',
@@ -1807,85 +1768,46 @@ $data = array (
     'has_children' => '0',
     'goods_num' => 0,
   ),
+  136 => 
+  array (
+    'cat_id' => '125',
+    'cat_name' => '蒜苔',
+    'measure_unit' => '',
+    'parent_id' => '158',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
+  137 => 
+  array (
+    'cat_id' => '74',
+    'cat_name' => '白洋葱',
+    'measure_unit' => '',
+    'parent_id' => '158',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
+  138 => 
+  array (
+    'cat_id' => '135',
+    'cat_name' => '蒜',
+    'measure_unit' => '',
+    'parent_id' => '158',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
   139 => 
-  array (
-    'cat_id' => '93',
-    'cat_name' => '西兰花',
-    'measure_unit' => '',
-    'parent_id' => '160',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  140 => 
-  array (
-    'cat_id' => '20',
-    'cat_name' => '白芸豆',
-    'measure_unit' => '',
-    'parent_id' => '160',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  141 => 
-  array (
-    'cat_id' => '71',
-    'cat_name' => '旱黄瓜',
-    'measure_unit' => '',
-    'parent_id' => '160',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  142 => 
-  array (
-    'cat_id' => '87',
-    'cat_name' => '绿茄子',
-    'measure_unit' => '',
-    'parent_id' => '160',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  143 => 
-  array (
-    'cat_id' => '103',
-    'cat_name' => '青圆椒',
-    'measure_unit' => '',
-    'parent_id' => '160',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  144 => 
-  array (
-    'cat_id' => '119',
-    'cat_name' => '苦瓜',
-    'measure_unit' => '',
-    'parent_id' => '160',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  145 => 
   array (
     'cat_id' => '68',
     'cat_name' => '水黄瓜',
@@ -1898,7 +1820,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  146 => 
+  140 => 
   array (
     'cat_id' => '78',
     'cat_name' => '尖椒',
@@ -1911,20 +1833,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  147 => 
-  array (
-    'cat_id' => '123',
-    'cat_name' => '山药',
-    'measure_unit' => '',
-    'parent_id' => '160',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  148 => 
+  141 => 
   array (
     'cat_id' => '22',
     'cat_name' => '有机菜花',
@@ -1937,10 +1846,10 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  149 => 
+  142 => 
   array (
-    'cat_id' => '88',
-    'cat_name' => '紫茄子',
+    'cat_id' => '123',
+    'cat_name' => '山药',
     'measure_unit' => '',
     'parent_id' => '160',
     'is_show' => '1',
@@ -1950,7 +1859,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  150 => 
+  143 => 
   array (
     'cat_id' => '21',
     'cat_name' => '架豆王',
@@ -1963,7 +1872,20 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  151 => 
+  144 => 
+  array (
+    'cat_id' => '88',
+    'cat_name' => '紫茄子',
+    'measure_unit' => '',
+    'parent_id' => '160',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
+  145 => 
   array (
     'cat_id' => '101',
     'cat_name' => '西红柿',
@@ -1976,7 +1898,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  152 => 
+  146 => 
   array (
     'cat_id' => '163',
     'cat_name' => '水晶粉',
@@ -1989,7 +1911,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  153 => 
+  147 => 
   array (
     'cat_id' => '108',
     'cat_name' => '冬瓜',
@@ -2002,7 +1924,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  154 => 
+  148 => 
   array (
     'cat_id' => '121',
     'cat_name' => '南瓜',
@@ -2015,7 +1937,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  155 => 
+  149 => 
   array (
     'cat_id' => '99',
     'cat_name' => '土豆',
@@ -2028,7 +1950,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  156 => 
+  150 => 
   array (
     'cat_id' => '80',
     'cat_name' => '豇豆',
@@ -2041,10 +1963,88 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  157 => 
+  151 => 
   array (
     'cat_id' => '112',
     'cat_name' => '角瓜',
+    'measure_unit' => '',
+    'parent_id' => '160',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
+  152 => 
+  array (
+    'cat_id' => '93',
+    'cat_name' => '西兰花',
+    'measure_unit' => '',
+    'parent_id' => '160',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
+  153 => 
+  array (
+    'cat_id' => '20',
+    'cat_name' => '白芸豆',
+    'measure_unit' => '',
+    'parent_id' => '160',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
+  154 => 
+  array (
+    'cat_id' => '71',
+    'cat_name' => '旱黄瓜',
+    'measure_unit' => '',
+    'parent_id' => '160',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
+  155 => 
+  array (
+    'cat_id' => '87',
+    'cat_name' => '绿茄子',
+    'measure_unit' => '',
+    'parent_id' => '160',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
+  156 => 
+  array (
+    'cat_id' => '103',
+    'cat_name' => '青圆椒',
+    'measure_unit' => '',
+    'parent_id' => '160',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
+  157 => 
+  array (
+    'cat_id' => '119',
+    'cat_name' => '苦瓜',
     'measure_unit' => '',
     'parent_id' => '160',
     'is_show' => '1',
@@ -2095,32 +2095,6 @@ $data = array (
   ),
   161 => 
   array (
-    'cat_id' => '174',
-    'cat_name' => '红牛',
-    'measure_unit' => '',
-    'parent_id' => '168',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  162 => 
-  array (
-    'cat_id' => '171',
-    'cat_name' => '冰糖雪梨',
-    'measure_unit' => '',
-    'parent_id' => '168',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  163 => 
-  array (
     'cat_id' => '178',
     'cat_name' => '茉莉清茶',
     'measure_unit' => '',
@@ -2132,7 +2106,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  164 => 
+  162 => 
   array (
     'cat_id' => '175',
     'cat_name' => '可口可乐',
@@ -2145,7 +2119,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  165 => 
+  163 => 
   array (
     'cat_id' => '172',
     'cat_name' => '芬达',
@@ -2158,7 +2132,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  166 => 
+  164 => 
   array (
     'cat_id' => '169',
     'cat_name' => '冰红茶',
@@ -2171,7 +2145,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  167 => 
+  165 => 
   array (
     'cat_id' => '179',
     'cat_name' => '雪碧',
@@ -2184,7 +2158,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  168 => 
+  166 => 
   array (
     'cat_id' => '176',
     'cat_name' => '脉动',
@@ -2197,7 +2171,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  169 => 
+  167 => 
   array (
     'cat_id' => '173',
     'cat_name' => '蜂蜜柚子茶',
@@ -2210,7 +2184,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  170 => 
+  168 => 
   array (
     'cat_id' => '170',
     'cat_name' => '冰绿茶',
@@ -2223,7 +2197,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  171 => 
+  169 => 
   array (
     'cat_id' => '180',
     'cat_name' => '矿泉水',
@@ -2236,7 +2210,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  172 => 
+  170 => 
   array (
     'cat_id' => '177',
     'cat_name' => '茉莉蜜茶',
@@ -2249,20 +2223,33 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  173 => 
+  171 => 
   array (
-    'cat_id' => '184',
-    'cat_name' => '双汇冷鲜排骨',
+    'cat_id' => '174',
+    'cat_name' => '红牛',
     'measure_unit' => '',
-    'parent_id' => '181',
+    'parent_id' => '168',
     'is_show' => '1',
-    'show_in_nav' => '1',
+    'show_in_nav' => '0',
     'grade' => '0',
     'sort_order' => '50',
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  174 => 
+  172 => 
+  array (
+    'cat_id' => '171',
+    'cat_name' => '冰糖雪梨',
+    'measure_unit' => '',
+    'parent_id' => '168',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
+  173 => 
   array (
     'cat_id' => '186',
     'cat_name' => '梅花肉',
@@ -2270,6 +2257,19 @@ $data = array (
     'parent_id' => '181',
     'is_show' => '1',
     'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
+  174 => 
+  array (
+    'cat_id' => '184',
+    'cat_name' => '双汇冷鲜排骨',
+    'measure_unit' => '',
+    'parent_id' => '181',
+    'is_show' => '1',
+    'show_in_nav' => '1',
     'grade' => '0',
     'sort_order' => '50',
     'has_children' => '0',
@@ -2290,58 +2290,6 @@ $data = array (
   ),
   176 => 
   array (
-    'cat_id' => '192',
-    'cat_name' => '精品甜橙',
-    'measure_unit' => '',
-    'parent_id' => '187',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  177 => 
-  array (
-    'cat_id' => '189',
-    'cat_name' => '精品蜜橘',
-    'measure_unit' => '',
-    'parent_id' => '187',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  178 => 
-  array (
-    'cat_id' => '205',
-    'cat_name' => '千禧小柿子',
-    'measure_unit' => '',
-    'parent_id' => '187',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  179 => 
-  array (
-    'cat_id' => '202',
-    'cat_name' => '甘蔗',
-    'measure_unit' => '',
-    'parent_id' => '187',
-    'is_show' => '1',
-    'show_in_nav' => '0',
-    'grade' => '0',
-    'sort_order' => '50',
-    'has_children' => '0',
-    'goods_num' => '1',
-  ),
-  180 => 
-  array (
     'cat_id' => '199',
     'cat_name' => '水果玉米',
     'measure_unit' => '',
@@ -2353,7 +2301,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  181 => 
+  177 => 
   array (
     'cat_id' => '196',
     'cat_name' => '黄心猕猴桃',
@@ -2366,7 +2314,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  182 => 
+  178 => 
   array (
     'cat_id' => '193',
     'cat_name' => '红心柚子',
@@ -2379,7 +2327,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  183 => 
+  179 => 
   array (
     'cat_id' => '190',
     'cat_name' => '皇冠梨',
@@ -2392,7 +2340,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  184 => 
+  180 => 
   array (
     'cat_id' => '203',
     'cat_name' => '白心火龙果',
@@ -2405,7 +2353,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  185 => 
+  181 => 
   array (
     'cat_id' => '200',
     'cat_name' => '黄元帅苹果',
@@ -2418,7 +2366,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  186 => 
+  182 => 
   array (
     'cat_id' => '197',
     'cat_name' => '金枕榴莲',
@@ -2431,7 +2379,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  187 => 
+  183 => 
   array (
     'cat_id' => '194',
     'cat_name' => '白心柚子',
@@ -2444,7 +2392,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  188 => 
+  184 => 
   array (
     'cat_id' => '191',
     'cat_name' => '精品富士苹果',
@@ -2457,7 +2405,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  189 => 
+  185 => 
   array (
     'cat_id' => '188',
     'cat_name' => '进口香蕉',
@@ -2470,7 +2418,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  190 => 
+  186 => 
   array (
     'cat_id' => '204',
     'cat_name' => '红心火龙果',
@@ -2483,7 +2431,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  191 => 
+  187 => 
   array (
     'cat_id' => '201',
     'cat_name' => '精品蓝莓',
@@ -2496,7 +2444,7 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  192 => 
+  188 => 
   array (
     'cat_id' => '198',
     'cat_name' => '海南麒麟西瓜',
@@ -2509,10 +2457,62 @@ $data = array (
     'has_children' => '0',
     'goods_num' => '1',
   ),
-  193 => 
+  189 => 
   array (
     'cat_id' => '195',
     'cat_name' => '精品南果梨',
+    'measure_unit' => '',
+    'parent_id' => '187',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
+  190 => 
+  array (
+    'cat_id' => '192',
+    'cat_name' => '精品甜橙',
+    'measure_unit' => '',
+    'parent_id' => '187',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
+  191 => 
+  array (
+    'cat_id' => '189',
+    'cat_name' => '精品蜜橘',
+    'measure_unit' => '',
+    'parent_id' => '187',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
+  192 => 
+  array (
+    'cat_id' => '205',
+    'cat_name' => '千禧小柿子',
+    'measure_unit' => '',
+    'parent_id' => '187',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+  ),
+  193 => 
+  array (
+    'cat_id' => '202',
+    'cat_name' => '甘蔗',
     'measure_unit' => '',
     'parent_id' => '187',
     'is_show' => '1',
