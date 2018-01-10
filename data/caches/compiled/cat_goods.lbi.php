@@ -1,13 +1,13 @@
 
 <?php if ($this->_var['cat_best']): ?>
-<?php $_from = $this->_var['cat_best']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'cat_best_0_22688700_1510930638');$this->_foreach['cat_best'] = array('total' => count($_from), 'iteration' => 0);
+<?php $_from = $this->_var['cat_best']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'cat_best_0_75401700_1515491868');$this->_foreach['cat_best'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['cat_best']['total'] > 0):
-    foreach ($_from AS $this->_var['cat_best_0_22688700_1510930638']):
+    foreach ($_from AS $this->_var['cat_best_0_75401700_1515491868']):
         $this->_foreach['cat_best']['iteration']++;
 ?>
-<div class="index-more-icon"><span><?php echo $this->_var['cat_best_0_22688700_1510930638']['cat_name']; ?></span></div>
+<div class="index-more-icon"><span><?php echo $this->_var['cat_best_0_75401700_1515491868']['cat_name']; ?></span></div>
 
-    <?php $_from = $this->_var['cat_best_0_22688700_1510930638']['goods_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'cat_goods');$this->_foreach['cat_goods'] = array('total' => count($_from), 'iteration' => 0);
+    <?php $_from = $this->_var['cat_best_0_75401700_1515491868']['goods_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'cat_goods');$this->_foreach['cat_goods'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['cat_goods']['total'] > 0):
     foreach ($_from AS $this->_var['cat_goods']):
         $this->_foreach['cat_goods']['iteration']++;

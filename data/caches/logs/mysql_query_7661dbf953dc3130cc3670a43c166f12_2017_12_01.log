@@ -1,0 +1,2100 @@
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('5d13e528a6e19d6a374d302510109546', '1512087768', '123.190.133.162', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT user_id, user_name, password, action_list, last_login  FROM `db_fresh_shop`.`cy_admin_user` WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_admin_user` SET last_login = '1512058968', last_ip = '123.190.133.162' WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512087768', ip = '123.190.133.162', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";s:0:\"\";}' WHERE sesskey = '5d13e528a6e19d6a374d302510109546' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512085968
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '5d13e528a6e19d6a374d302510109546'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT message_id, sender_id, receiver_id, sent_time, readed, deleted, title, message, user_name FROM `db_fresh_shop`.`cy_admin_message` AS a, `db_fresh_shop`.`cy_admin_user` AS b WHERE a.sender_id = b.user_id AND a.receiver_id = '1' AND a.readed = 0 AND deleted = 0 ORDER BY a.sent_time DESC
+
+SELECT pay_id, is_cod FROM `db_fresh_shop`.`cy_payment` WHERE enabled = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status  IN ('1','5')  AND shipping_status  IN ('1','2')  AND pay_status  IN ('2','1')  
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5','6')  AND   shipping_status  IN ('0','3','5')  AND ( pay_status  IN ('2','1')  OR pay_id  IN ('2') ) 
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5')  AND   pay_status = '0' AND ( shipping_status  IN ('1','2')  OR pay_id  IN ('1') ) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status = '0' 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE  shipping_status=4
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512058968' AND promote_end_date >= '1512058968' AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512058968' AND promote_end_date >= '1512058968' AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_stats` WHERE access_time > 1512028800
+
+SELECT count(*) FROM `db_fresh_shop`.`cy_sessions`
+
+SELECT COUNT(f.msg_id) FROM `db_fresh_shop`.`cy_feedback` AS f LEFT JOIN `db_fresh_shop`.`cy_feedback` AS r ON r.parent_id=f.msg_id WHERE f.parent_id=0 AND ISNULL(r.msg_id) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_comment` WHERE status = 0 AND parent_id = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_booking_goods` WHERE is_dispose = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_user_account` WHERE process_type = 1 AND is_paid = 0 
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512085968
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '5d13e528a6e19d6a374d302510109546'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '5d13e528a6e19d6a374d302510109546'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '5d13e528a6e19d6a374d302510109546'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512085968
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512085968
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_users`
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'template'
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'stylename'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512087768', ip = '123.190.133.162', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512058968;}' WHERE sesskey = '5d13e528a6e19d6a374d302510109546' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512085968
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('d0973e04b2a5572f2ac3dc7da61f62ca', '1512087778', '120.204.17.71', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512087778', ip = '120.204.17.71', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'd0973e04b2a5572f2ac3dc7da61f62ca' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512085978
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'd0973e04b2a5572f2ac3dc7da61f62ca'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512085978
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('bb0c3a3d62c1d46a03b2ea88d5af6fb2', '1512091858', '106.38.0.105', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512091858', ip = '106.38.0.105', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'bb0c3a3d62c1d46a03b2ea88d5af6fb2' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512090058
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('79402e381020bfb7a6d3781458f591e7', '1512091858', '106.38.0.105', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512091858', ip = '106.38.0.105', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '79402e381020bfb7a6d3781458f591e7' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512090058
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('de4dba6e47cbed4f9ffd2b7964922512', '1512091859', '106.38.0.105', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512091859', ip = '106.38.0.105', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'de4dba6e47cbed4f9ffd2b7964922512' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512090059
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('0d7ee4ec1ecb19719df7bac9a1b6a9e1', '1512091859', '106.38.0.105', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512091859', ip = '106.38.0.105', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '0d7ee4ec1ecb19719df7bac9a1b6a9e1' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '5d13e528a6e19d6a374d302510109546'
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('5d13e528a6e19d6a374d302510109546', '1512094976', '123.190.133.162', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT user_id, user_name, password, action_list, last_login  FROM `db_fresh_shop`.`cy_admin_user` WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_admin_user` SET last_login = '1512066176', last_ip = '123.190.133.162' WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512094976', ip = '123.190.133.162', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";s:0:\"\";}' WHERE sesskey = '5d13e528a6e19d6a374d302510109546' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512093176
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '5d13e528a6e19d6a374d302510109546'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT message_id, sender_id, receiver_id, sent_time, readed, deleted, title, message, user_name FROM `db_fresh_shop`.`cy_admin_message` AS a, `db_fresh_shop`.`cy_admin_user` AS b WHERE a.sender_id = b.user_id AND a.receiver_id = '1' AND a.readed = 0 AND deleted = 0 ORDER BY a.sent_time DESC
+
+SELECT pay_id, is_cod FROM `db_fresh_shop`.`cy_payment` WHERE enabled = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status  IN ('1','5')  AND shipping_status  IN ('1','2')  AND pay_status  IN ('2','1')  
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5','6')  AND   shipping_status  IN ('0','3','5')  AND ( pay_status  IN ('2','1')  OR pay_id  IN ('2') ) 
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5')  AND   pay_status = '0' AND ( shipping_status  IN ('1','2')  OR pay_id  IN ('1') ) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status = '0' 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE  shipping_status=4
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512066176' AND promote_end_date >= '1512066176' AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512066176' AND promote_end_date >= '1512066176' AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_stats` WHERE access_time > 1512028800
+
+SELECT count(*) FROM `db_fresh_shop`.`cy_sessions`
+
+SELECT COUNT(f.msg_id) FROM `db_fresh_shop`.`cy_feedback` AS f LEFT JOIN `db_fresh_shop`.`cy_feedback` AS r ON r.parent_id=f.msg_id WHERE f.parent_id=0 AND ISNULL(r.msg_id) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_comment` WHERE status = 0 AND parent_id = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_booking_goods` WHERE is_dispose = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_user_account` WHERE process_type = 1 AND is_paid = 0 
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512093176
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '5d13e528a6e19d6a374d302510109546'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512094976', ip = '123.190.133.162', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512066176;}' WHERE sesskey = '5d13e528a6e19d6a374d302510109546' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512093176
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '5d13e528a6e19d6a374d302510109546'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '5d13e528a6e19d6a374d302510109546'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_users`
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'template'
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'stylename'
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512093176
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512093177
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('ac930cce53491c757daa35bc37cc56c3', '1512094986', '120.204.17.73', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512094986', ip = '120.204.17.73', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'ac930cce53491c757daa35bc37cc56c3' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512093186
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ac930cce53491c757daa35bc37cc56c3'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512093186
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512093186
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('b6738f2284e0501018566657c4aeecc8', '1512095665', '106.38.0.105', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512095665', ip = '106.38.0.105', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'b6738f2284e0501018566657c4aeecc8' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512093865
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('c906929a82c6f6b5ac14a96e1260a737', '1512095665', '106.38.0.105', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512095665', ip = '106.38.0.105', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'c906929a82c6f6b5ac14a96e1260a737' LIMIT 1
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('e8fc3204aa7ec534743b1865feff5e3b', '1512095666', '106.38.0.105', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512095666', ip = '106.38.0.105', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'e8fc3204aa7ec534743b1865feff5e3b' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512093866
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('6be26b41857801f1d9115ba6892b58c2', '1512095666', '106.38.0.105', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512095666', ip = '106.38.0.105', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '6be26b41857801f1d9115ba6892b58c2' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512093866
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '5d13e528a6e19d6a374d302510109546'
+
+SELECT data, expiry FROM `db_fresh_shop`.`cy_sessions_data` WHERE sesskey = '5d13e528a6e19d6a374d302510109546'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT user_id, user_name, password, action_list, last_login  FROM `db_fresh_shop`.`cy_admin_user` WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_admin_user` SET last_login = '1512069175', last_ip = '123.190.133.162' WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512097975', ip = '123.190.133.162', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";s:0:\"\";}' WHERE sesskey = '5d13e528a6e19d6a374d302510109546' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '5d13e528a6e19d6a374d302510109546'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT message_id, sender_id, receiver_id, sent_time, readed, deleted, title, message, user_name FROM `db_fresh_shop`.`cy_admin_message` AS a, `db_fresh_shop`.`cy_admin_user` AS b WHERE a.sender_id = b.user_id AND a.receiver_id = '1' AND a.readed = 0 AND deleted = 0 ORDER BY a.sent_time DESC
+
+SELECT pay_id, is_cod FROM `db_fresh_shop`.`cy_payment` WHERE enabled = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status  IN ('1','5')  AND shipping_status  IN ('1','2')  AND pay_status  IN ('2','1')  
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5','6')  AND   shipping_status  IN ('0','3','5')  AND ( pay_status  IN ('2','1')  OR pay_id  IN ('2') ) 
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5')  AND   pay_status = '0' AND ( shipping_status  IN ('1','2')  OR pay_id  IN ('1') ) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status = '0' 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE  shipping_status=4
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512069175' AND promote_end_date >= '1512069175' AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512069175' AND promote_end_date >= '1512069175' AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_stats` WHERE access_time > 1512028800
+
+SELECT count(*) FROM `db_fresh_shop`.`cy_sessions`
+
+SELECT COUNT(f.msg_id) FROM `db_fresh_shop`.`cy_feedback` AS f LEFT JOIN `db_fresh_shop`.`cy_feedback` AS r ON r.parent_id=f.msg_id WHERE f.parent_id=0 AND ISNULL(r.msg_id) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_comment` WHERE status = 0 AND parent_id = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_booking_goods` WHERE is_dispose = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_user_account` WHERE process_type = 1 AND is_paid = 0 
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512096175
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '5d13e528a6e19d6a374d302510109546'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '5d13e528a6e19d6a374d302510109546'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '5d13e528a6e19d6a374d302510109546'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_users`
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'template'
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'stylename'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512097975', ip = '123.190.133.162', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512069175;}' WHERE sesskey = '5d13e528a6e19d6a374d302510109546' LIMIT 1
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('e6fa8766a697278989b2c2cfa2bf47c8', '1512099201', '123.247.10.99', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT user_id, user_name, password, action_list, last_login  FROM `db_fresh_shop`.`cy_admin_user` WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_admin_user` SET last_login = '1512070401', last_ip = '123.247.10.99' WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512099201', ip = '123.247.10.99', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";s:0:\"\";}' WHERE sesskey = 'e6fa8766a697278989b2c2cfa2bf47c8' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'e6fa8766a697278989b2c2cfa2bf47c8'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT message_id, sender_id, receiver_id, sent_time, readed, deleted, title, message, user_name FROM `db_fresh_shop`.`cy_admin_message` AS a, `db_fresh_shop`.`cy_admin_user` AS b WHERE a.sender_id = b.user_id AND a.receiver_id = '1' AND a.readed = 0 AND deleted = 0 ORDER BY a.sent_time DESC
+
+SELECT pay_id, is_cod FROM `db_fresh_shop`.`cy_payment` WHERE enabled = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status  IN ('1','5')  AND shipping_status  IN ('1','2')  AND pay_status  IN ('2','1')  
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5','6')  AND   shipping_status  IN ('0','3','5')  AND ( pay_status  IN ('2','1')  OR pay_id  IN ('2') ) 
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5')  AND   pay_status = '0' AND ( shipping_status  IN ('1','2')  OR pay_id  IN ('1') ) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status = '0' 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE  shipping_status=4
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512070402' AND promote_end_date >= '1512070402' AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512070402' AND promote_end_date >= '1512070402' AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_stats` WHERE access_time > 1512028800
+
+SELECT count(*) FROM `db_fresh_shop`.`cy_sessions`
+
+SELECT COUNT(f.msg_id) FROM `db_fresh_shop`.`cy_feedback` AS f LEFT JOIN `db_fresh_shop`.`cy_feedback` AS r ON r.parent_id=f.msg_id WHERE f.parent_id=0 AND ISNULL(r.msg_id) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_comment` WHERE status = 0 AND parent_id = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_booking_goods` WHERE is_dispose = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_user_account` WHERE process_type = 1 AND is_paid = 0 
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512097402
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512097402
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'e6fa8766a697278989b2c2cfa2bf47c8'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512097402
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'e6fa8766a697278989b2c2cfa2bf47c8'
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'e6fa8766a697278989b2c2cfa2bf47c8'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_users`
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'template'
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'stylename'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512099202', ip = '123.247.10.99', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512070402;}' WHERE sesskey = 'e6fa8766a697278989b2c2cfa2bf47c8' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512097402
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512097402
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'e6fa8766a697278989b2c2cfa2bf47c8'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512100124', ip = '123.247.10.99', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512070402;}' WHERE sesskey = 'e6fa8766a697278989b2c2cfa2bf47c8' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512098324
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512098324
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'e6fa8766a697278989b2c2cfa2bf47c8'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT message_id, sender_id, receiver_id, sent_time, readed, deleted, title, message, user_name FROM `db_fresh_shop`.`cy_admin_message` AS a, `db_fresh_shop`.`cy_admin_user` AS b WHERE a.sender_id = b.user_id AND a.receiver_id = '1' AND a.readed = 0 AND deleted = 0 ORDER BY a.sent_time DESC
+
+SELECT pay_id, is_cod FROM `db_fresh_shop`.`cy_payment` WHERE enabled = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status  IN ('1','5')  AND shipping_status  IN ('1','2')  AND pay_status  IN ('2','1')  
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5','6')  AND   shipping_status  IN ('0','3','5')  AND ( pay_status  IN ('2','1')  OR pay_id  IN ('2') ) 
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5')  AND   pay_status = '0' AND ( shipping_status  IN ('1','2')  OR pay_id  IN ('1') ) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status = '0' 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE  shipping_status=4
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512071324' AND promote_end_date >= '1512071324' AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512071324' AND promote_end_date >= '1512071324' AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_stats` WHERE access_time > 1512028800
+
+SELECT count(*) FROM `db_fresh_shop`.`cy_sessions`
+
+SELECT COUNT(f.msg_id) FROM `db_fresh_shop`.`cy_feedback` AS f LEFT JOIN `db_fresh_shop`.`cy_feedback` AS r ON r.parent_id=f.msg_id WHERE f.parent_id=0 AND ISNULL(r.msg_id) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_comment` WHERE status = 0 AND parent_id = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_booking_goods` WHERE is_dispose = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_user_account` WHERE process_type = 1 AND is_paid = 0 
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512098324
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512098324
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'e6fa8766a697278989b2c2cfa2bf47c8'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'e6fa8766a697278989b2c2cfa2bf47c8'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'e6fa8766a697278989b2c2cfa2bf47c8'
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_users`
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'template'
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'stylename'
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512098325
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512070402'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512070402
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512100125', ip = '123.247.10.99', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512071325;}' WHERE sesskey = 'e6fa8766a697278989b2c2cfa2bf47c8' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512098325
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('ca31376e42762f28b28fcd6cbf340089', '1512102430', '42.56.17.214', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512102430', ip = '42.56.17.214', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512100630
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512100630
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512100631
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT `ec_salt` FROM `db_fresh_shop`.`cy_admin_user`WHERE user_name = 'admin'
+
+SELECT user_id, user_name, password, last_login, action_list, last_login,suppliers_id,ec_salt FROM `db_fresh_shop`.`cy_admin_user` WHERE user_name = 'admin' AND password = 'a24719e63488128586f6a29c128f530b'
+
+UPDATE `db_fresh_shop`.`cy_admin_user` SET last_login='1512073634', last_ip='42.56.17.214' WHERE user_id='1'
+
+SELECT DISTINCT session_id FROM `db_fresh_shop`.`cy_cart` AS c, `db_fresh_shop`.`cy_sessions` AS s WHERE c.session_id = s.sesskey 
+
+DELETE FROM `db_fresh_shop`.`cy_cart` WHERE session_id NOT  IN ('') 
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512102434', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";s:10:\"1512070401\";s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512100634
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512100634
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512100634
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT c.cat_id, c.cat_name, c.measure_unit, c.parent_id, c.is_show, c.show_in_nav, c.grade, c.sort_order, COUNT(s.cat_id) AS has_children FROM `db_fresh_shop`.`cy_category` AS c LEFT JOIN `db_fresh_shop`.`cy_category` AS s ON s.parent_id=c.cat_id GROUP BY c.cat_id ORDER BY c.parent_id, c.sort_order ASC
+
+SELECT cat_id, COUNT(*) AS goods_num  FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_on_sale = 1  GROUP BY cat_id
+
+SELECT gc.cat_id, COUNT(*) AS goods_num  FROM `db_fresh_shop`.`cy_goods_cat` AS gc , `db_fresh_shop`.`cy_goods` AS g  WHERE g.goods_id = gc.goods_id AND g.is_delete = 0 AND g.is_on_sale = 1  GROUP BY gc.cat_id
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512100634
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512070401'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512070401
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512102434', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512073634;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512100634
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT message_id, sender_id, receiver_id, sent_time, readed, deleted, title, message, user_name FROM `db_fresh_shop`.`cy_admin_message` AS a, `db_fresh_shop`.`cy_admin_user` AS b WHERE a.sender_id = b.user_id AND a.receiver_id = '1' AND a.readed = 0 AND deleted = 0 ORDER BY a.sent_time DESC
+
+SELECT pay_id, is_cod FROM `db_fresh_shop`.`cy_payment` WHERE enabled = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status  IN ('1','5')  AND shipping_status  IN ('1','2')  AND pay_status  IN ('2','1')  
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5','6')  AND   shipping_status  IN ('0','3','5')  AND ( pay_status  IN ('2','1')  OR pay_id  IN ('2') ) 
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5')  AND   pay_status = '0' AND ( shipping_status  IN ('1','2')  OR pay_id  IN ('1') ) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status = '0' 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE  shipping_status=4
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512073637' AND promote_end_date >= '1512073637' AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512073637' AND promote_end_date >= '1512073637' AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_stats` WHERE access_time > 1512028800
+
+SELECT count(*) FROM `db_fresh_shop`.`cy_sessions`
+
+SELECT COUNT(f.msg_id) FROM `db_fresh_shop`.`cy_feedback` AS f LEFT JOIN `db_fresh_shop`.`cy_feedback` AS r ON r.parent_id=f.msg_id WHERE f.parent_id=0 AND ISNULL(r.msg_id) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_comment` WHERE status = 0 AND parent_id = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_booking_goods` WHERE is_dispose = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_user_account` WHERE process_type = 1 AND is_paid = 0 
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512100637
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_users`
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'template'
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'stylename'
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512102506', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512073634;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512100706
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT c.cat_id, c.cat_name, c.measure_unit, c.parent_id, c.is_show, c.show_in_nav, c.grade, c.sort_order, COUNT(s.cat_id) AS has_children FROM `db_fresh_shop`.`cy_category` AS c LEFT JOIN `db_fresh_shop`.`cy_category` AS s ON s.parent_id=c.cat_id GROUP BY c.cat_id ORDER BY c.parent_id, c.sort_order ASC
+
+SELECT cat_id, COUNT(*) AS goods_num  FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_on_sale = 1  GROUP BY cat_id
+
+SELECT gc.cat_id, COUNT(*) AS goods_num  FROM `db_fresh_shop`.`cy_goods_cat` AS gc , `db_fresh_shop`.`cy_goods` AS g  WHERE g.goods_id = gc.goods_id AND g.is_delete = 0 AND g.is_on_sale = 1  GROUP BY gc.cat_id
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512100706
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT suppliers_id, suppliers_name, suppliers_desc
+            FROM `db_fresh_shop`.`cy_suppliers`
+            WHERE  is_check = 1 
+
+SELECT c.cat_id, c.cat_name, c.measure_unit, c.parent_id, c.is_show, c.show_in_nav, c.grade, c.sort_order, COUNT(s.cat_id) AS has_children FROM `db_fresh_shop`.`cy_category` AS c LEFT JOIN `db_fresh_shop`.`cy_category` AS s ON s.parent_id=c.cat_id GROUP BY c.cat_id ORDER BY c.parent_id, c.sort_order ASC
+
+SELECT cat_id, COUNT(*) AS goods_num  FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_on_sale = 1  GROUP BY cat_id
+
+SELECT gc.cat_id, COUNT(*) AS goods_num  FROM `db_fresh_shop`.`cy_goods_cat` AS gc , `db_fresh_shop`.`cy_goods` AS g  WHERE g.goods_id = gc.goods_id AND g.is_delete = 0 AND g.is_on_sale = 1  GROUP BY gc.cat_id
+
+SELECT brand_id, brand_name FROM `db_fresh_shop`.`cy_brand` ORDER BY sort_order
+
+SELECT suppliers_id, suppliers_name, suppliers_desc
+            FROM `db_fresh_shop`.`cy_suppliers`
+            WHERE  is_check = 1 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` AS g WHERE is_delete='0'  AND is_real='1'
+
+SELECT goods_id, goods_name, goods_type, goods_sn, shop_price, is_on_sale, is_best, is_new, is_hot, sort_order, goods_number, integral,  (promote_price > 0 AND promote_start_date <= '1512115199' AND promote_end_date >= '1512115199') AS is_promote  FROM `db_fresh_shop`.`cy_goods` AS g WHERE is_delete='0'  AND is_real='1' ORDER BY goods_id DESC  LIMIT 0,15
+
+SELECT DISTINCT cat_id
+            FROM `db_fresh_shop`.`cy_attribute`
+            WHERE attr_type = 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512100712
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT count(*) FROM `db_fresh_shop`.`cy_comment` WHERE parent_id = 0 
+
+SELECT * FROM `db_fresh_shop`.`cy_comment` WHERE parent_id = 0   ORDER BY add_time DESC  LIMIT 0, 15
+
+SELECT goods_name FROM `db_fresh_shop`.`cy_goods` WHERE goods_id='181'
+
+SELECT goods_name FROM `db_fresh_shop`.`cy_goods` WHERE goods_id='65'
+
+SELECT goods_name FROM `db_fresh_shop`.`cy_goods` WHERE goods_id='65'
+
+SELECT goods_name FROM `db_fresh_shop`.`cy_goods` WHERE goods_id='65'
+
+SELECT goods_name FROM `db_fresh_shop`.`cy_goods` WHERE goods_id='152'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512102520', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512073634;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512100720
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT * FROM `db_fresh_shop`.`cy_comment` WHERE comment_id = '7'
+
+SELECT * FROM `db_fresh_shop`.`cy_comment` WHERE parent_id = '7'
+
+SELECT user_name, email FROM `db_fresh_shop`.`cy_admin_user` WHERE user_id = '1'
+
+SELECT goods_name FROM `db_fresh_shop`.`cy_goods` WHERE goods_id = '181'
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512100728
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT count(*) FROM `db_fresh_shop`.`cy_comment` WHERE parent_id = 0 
+
+SELECT * FROM `db_fresh_shop`.`cy_comment` WHERE parent_id = 0   ORDER BY add_time DESC  LIMIT 0, 15
+
+SELECT goods_name FROM `db_fresh_shop`.`cy_goods` WHERE goods_id='181'
+
+SELECT goods_name FROM `db_fresh_shop`.`cy_goods` WHERE goods_id='65'
+
+SELECT goods_name FROM `db_fresh_shop`.`cy_goods` WHERE goods_id='65'
+
+SELECT goods_name FROM `db_fresh_shop`.`cy_goods` WHERE goods_id='65'
+
+SELECT goods_name FROM `db_fresh_shop`.`cy_goods` WHERE goods_id='152'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512102645', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512073634;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512073634'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512073634
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512102645', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512073845;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT suppliers_id, suppliers_name, suppliers_desc
+            FROM `db_fresh_shop`.`cy_suppliers`
+            WHERE  is_check = 1 
+
+SELECT c.cat_id, c.cat_name, c.measure_unit, c.parent_id, c.is_show, c.show_in_nav, c.grade, c.sort_order, COUNT(s.cat_id) AS has_children FROM `db_fresh_shop`.`cy_category` AS c LEFT JOIN `db_fresh_shop`.`cy_category` AS s ON s.parent_id=c.cat_id GROUP BY c.cat_id ORDER BY c.parent_id, c.sort_order ASC
+
+SELECT cat_id, COUNT(*) AS goods_num  FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_on_sale = 1  GROUP BY cat_id
+
+SELECT gc.cat_id, COUNT(*) AS goods_num  FROM `db_fresh_shop`.`cy_goods_cat` AS gc , `db_fresh_shop`.`cy_goods` AS g  WHERE g.goods_id = gc.goods_id AND g.is_delete = 0 AND g.is_on_sale = 1  GROUP BY gc.cat_id
+
+SELECT brand_id, brand_name FROM `db_fresh_shop`.`cy_brand` ORDER BY sort_order
+
+SELECT suppliers_id, suppliers_name, suppliers_desc
+            FROM `db_fresh_shop`.`cy_suppliers`
+            WHERE  is_check = 1 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` AS g WHERE is_delete='0'  AND is_real='1'
+
+SELECT goods_id, goods_name, goods_type, goods_sn, shop_price, is_on_sale, is_best, is_new, is_hot, sort_order, goods_number, integral,  (promote_price > 0 AND promote_start_date <= '1512115199' AND promote_end_date >= '1512115199') AS is_promote  FROM `db_fresh_shop`.`cy_goods` AS g WHERE is_delete='0'  AND is_real='1' ORDER BY goods_id DESC  LIMIT 0,15
+
+SELECT DISTINCT cat_id
+            FROM `db_fresh_shop`.`cy_attribute`
+            WHERE attr_type = 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512100850
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512073845'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512073845
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512102840', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512074040;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512101040
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512101040
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512074040'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512074040
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512103020', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512074220;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512101220
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512074220'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512074220
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512103200', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512074400;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512101400
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512101400
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512074400'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512074400
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512103380', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512074580;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512101580
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512074580'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512074580
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512103560', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512074760;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512101760
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512074760'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512074760
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512103740', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512074940;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512101940
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512101940
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512074940'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512074940
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512103920', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512075120;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512102120
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512075120'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512075120
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512104115', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512075315;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('58767abb3eb8ed60ed9c4e1e9a41543c', '1512104301', '42.56.17.214', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT user_id, user_name, password, action_list, last_login  FROM `db_fresh_shop`.`cy_admin_user` WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_admin_user` SET last_login = '1512075501', last_ip = '42.56.17.214' WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512104301', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";s:0:\"\";}' WHERE sesskey = '58767abb3eb8ed60ed9c4e1e9a41543c' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '58767abb3eb8ed60ed9c4e1e9a41543c'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT message_id, sender_id, receiver_id, sent_time, readed, deleted, title, message, user_name FROM `db_fresh_shop`.`cy_admin_message` AS a, `db_fresh_shop`.`cy_admin_user` AS b WHERE a.sender_id = b.user_id AND a.receiver_id = '1' AND a.readed = 0 AND deleted = 0 ORDER BY a.sent_time DESC
+
+SELECT pay_id, is_cod FROM `db_fresh_shop`.`cy_payment` WHERE enabled = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status  IN ('1','5')  AND shipping_status  IN ('1','2')  AND pay_status  IN ('2','1')  
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5','6')  AND   shipping_status  IN ('0','3','5')  AND ( pay_status  IN ('2','1')  OR pay_id  IN ('2') ) 
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5')  AND   pay_status = '0' AND ( shipping_status  IN ('1','2')  OR pay_id  IN ('1') ) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status = '0' 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE  shipping_status=4
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512075502' AND promote_end_date >= '1512075502' AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512075502' AND promote_end_date >= '1512075502' AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_stats` WHERE access_time > 1512028800
+
+SELECT count(*) FROM `db_fresh_shop`.`cy_sessions`
+
+SELECT COUNT(f.msg_id) FROM `db_fresh_shop`.`cy_feedback` AS f LEFT JOIN `db_fresh_shop`.`cy_feedback` AS r ON r.parent_id=f.msg_id WHERE f.parent_id=0 AND ISNULL(r.msg_id) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_comment` WHERE status = 0 AND parent_id = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_booking_goods` WHERE is_dispose = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_user_account` WHERE process_type = 1 AND is_paid = 0 
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512102502
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512102502
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '58767abb3eb8ed60ed9c4e1e9a41543c'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '58767abb3eb8ed60ed9c4e1e9a41543c'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '58767abb3eb8ed60ed9c4e1e9a41543c'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512104302', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512075502;}' WHERE sesskey = '58767abb3eb8ed60ed9c4e1e9a41543c' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512102502
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_users`
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'template'
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'stylename'
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512102502
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512102502
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512102502
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512075315'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512075315
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512104305', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512075505;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512075505'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512075505
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512104485', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512075685;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512075685'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512075685
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512104665', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512075865;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512075865'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512075865
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512104845', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512076045;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512103045
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512076045'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512076045
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512105025', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512076225;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512103225
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512076225'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512076225
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512105205', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512076405;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512103405
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512076405'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512076405
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512105385', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512076585;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512103585
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512076585'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512076585
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512105565', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512076765;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512103765
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512076765'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512076765
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512105745', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512076945;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512103945
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512076945'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512076945
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512105925', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512077125;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512104125
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('113240f7627cc0570487152aee0fcf9b', '1512106034', '106.38.0.105', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512106034', ip = '106.38.0.105', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = '113240f7627cc0570487152aee0fcf9b' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512104234
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('c4d21965d19150dbf4775702908c53fe', '1512106034', '106.38.0.105', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512106034', ip = '106.38.0.105', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'c4d21965d19150dbf4775702908c53fe' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512104234
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512104234
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('e6655dc817e3ebc65cd5808242f48097', '1512106035', '106.38.0.105', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512106035', ip = '106.38.0.105', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'e6655dc817e3ebc65cd5808242f48097' LIMIT 1
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('e997d5a404a82cae70a13e72ebec5834', '1512106035', '106.38.0.105', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512106035', ip = '106.38.0.105', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:0:{}' WHERE sesskey = 'e997d5a404a82cae70a13e72ebec5834' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512077125'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512077125
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512106105', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512077305;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512077305'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512077305
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512106285', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512077485;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512077485'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512077485
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512106465', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512077665;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512077665'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512077665
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512106645', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512077845;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512077845'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512077845
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512106825', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512078025;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT message_id, sender_id, receiver_id, sent_time, readed, deleted, title, message, user_name FROM `db_fresh_shop`.`cy_admin_message` AS a, `db_fresh_shop`.`cy_admin_user` AS b WHERE a.sender_id = b.user_id AND a.receiver_id = '1' AND a.readed = 0 AND deleted = 0 ORDER BY a.sent_time DESC
+
+SELECT pay_id, is_cod FROM `db_fresh_shop`.`cy_payment` WHERE enabled = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status  IN ('1','5')  AND shipping_status  IN ('1','2')  AND pay_status  IN ('2','1')  
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5','6')  AND   shipping_status  IN ('0','3','5')  AND ( pay_status  IN ('2','1')  OR pay_id  IN ('2') ) 
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5')  AND   pay_status = '0' AND ( shipping_status  IN ('1','2')  OR pay_id  IN ('1') ) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status = '0' 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE  shipping_status=4
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512078047' AND promote_end_date >= '1512078047' AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512078047' AND promote_end_date >= '1512078047' AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_stats` WHERE access_time > 1512028800
+
+SELECT count(*) FROM `db_fresh_shop`.`cy_sessions`
+
+SELECT COUNT(f.msg_id) FROM `db_fresh_shop`.`cy_feedback` AS f LEFT JOIN `db_fresh_shop`.`cy_feedback` AS r ON r.parent_id=f.msg_id WHERE f.parent_id=0 AND ISNULL(r.msg_id) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_comment` WHERE status = 0 AND parent_id = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_booking_goods` WHERE is_dispose = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_user_account` WHERE process_type = 1 AND is_paid = 0 
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512106847', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512078025;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_users`
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'template'
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'stylename'
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512078025'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512078025
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512107027', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512078227;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('c40a534d9146be93d67eab0a6a19b45f', '1512107056', '223.104.177.26', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512107056', ip = '223.104.177.26', userid = '0', adminid = '0', user_name='0', user_rank='0', discount='0', email='0', data = 'a:1:{s:10:\"last_check\";i:1512078256;}' WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512105256
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512105256
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512078227'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512078227
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512107207', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512078407;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512078407'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512078407
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512107387', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512078587;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512078587'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512078587
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512107567', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512078767;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512078767'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512078767
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512107747', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512078947;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512078947'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512078947
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512107927', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512079127;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512106127
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512079127'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512079127
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512108107', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512079307;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512079307'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512079307
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512108287', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512079487;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512079487'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512079487
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512108467', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512079667;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512079667'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512079667
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512108647', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512079847;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512106847
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT message_id, sender_id, receiver_id, sent_time, readed, deleted, title, message, user_name FROM `db_fresh_shop`.`cy_admin_message` AS a, `db_fresh_shop`.`cy_admin_user` AS b WHERE a.sender_id = b.user_id AND a.receiver_id = '1' AND a.readed = 0 AND deleted = 0 ORDER BY a.sent_time DESC
+
+SELECT pay_id, is_cod FROM `db_fresh_shop`.`cy_payment` WHERE enabled = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status  IN ('1','5')  AND shipping_status  IN ('1','2')  AND pay_status  IN ('2','1')  
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5','6')  AND   shipping_status  IN ('0','3','5')  AND ( pay_status  IN ('2','1')  OR pay_id  IN ('2') ) 
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5')  AND   pay_status = '0' AND ( shipping_status  IN ('1','2')  OR pay_id  IN ('1') ) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status = '0' 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE  shipping_status=4
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512079901' AND promote_end_date >= '1512079901' AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512079901' AND promote_end_date >= '1512079901' AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_stats` WHERE access_time > 1512028800
+
+SELECT count(*) FROM `db_fresh_shop`.`cy_sessions`
+
+SELECT COUNT(f.msg_id) FROM `db_fresh_shop`.`cy_feedback` AS f LEFT JOIN `db_fresh_shop`.`cy_feedback` AS r ON r.parent_id=f.msg_id WHERE f.parent_id=0 AND ISNULL(r.msg_id) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_comment` WHERE status = 0 AND parent_id = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_booking_goods` WHERE is_dispose = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_user_account` WHERE process_type = 1 AND is_paid = 0 
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512108701', ip = '42.56.17.214', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:4:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512079847;s:12:\"suppliers_id\";s:1:\"0\";}' WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'ca31376e42762f28b28fcd6cbf340089'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_users`
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'template'
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'stylename'
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512106902
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512106902
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512106902
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512106902
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT data, expiry FROM `db_fresh_shop`.`cy_sessions_data` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT user_id, user_name, password, action_list, last_login  FROM `db_fresh_shop`.`cy_admin_user` WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_admin_user` SET last_login = '1512085766', last_ip = '223.104.177.26' WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512114566', ip = '223.104.177.26', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";s:0:\"\";}' WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512112766
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT message_id, sender_id, receiver_id, sent_time, readed, deleted, title, message, user_name FROM `db_fresh_shop`.`cy_admin_message` AS a, `db_fresh_shop`.`cy_admin_user` AS b WHERE a.sender_id = b.user_id AND a.receiver_id = '1' AND a.readed = 0 AND deleted = 0 ORDER BY a.sent_time DESC
+
+SELECT pay_id, is_cod FROM `db_fresh_shop`.`cy_payment` WHERE enabled = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status  IN ('1','5')  AND shipping_status  IN ('1','2')  AND pay_status  IN ('2','1')  
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5','6')  AND   shipping_status  IN ('0','3','5')  AND ( pay_status  IN ('2','1')  OR pay_id  IN ('2') ) 
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5')  AND   pay_status = '0' AND ( shipping_status  IN ('1','2')  OR pay_id  IN ('1') ) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status = '0' 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE  shipping_status=4
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512085766' AND promote_end_date >= '1512085766' AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512085766' AND promote_end_date >= '1512085766' AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_stats` WHERE access_time > 1512028800
+
+SELECT count(*) FROM `db_fresh_shop`.`cy_sessions`
+
+SELECT COUNT(f.msg_id) FROM `db_fresh_shop`.`cy_feedback` AS f LEFT JOIN `db_fresh_shop`.`cy_feedback` AS r ON r.parent_id=f.msg_id WHERE f.parent_id=0 AND ISNULL(r.msg_id) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_comment` WHERE status = 0 AND parent_id = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_booking_goods` WHERE is_dispose = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_user_account` WHERE process_type = 1 AND is_paid = 0 
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512112766
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512114566', ip = '223.104.177.26', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512085766;}' WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512112766
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_users`
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'template'
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'stylename'
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT data, expiry FROM `db_fresh_shop`.`cy_sessions_data` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT user_id, user_name, password, action_list, last_login  FROM `db_fresh_shop`.`cy_admin_user` WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_admin_user` SET last_login = '1512089860', last_ip = '223.104.177.26' WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512118660', ip = '223.104.177.26', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";s:0:\"\";}' WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512116860
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512116860
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT message_id, sender_id, receiver_id, sent_time, readed, deleted, title, message, user_name FROM `db_fresh_shop`.`cy_admin_message` AS a, `db_fresh_shop`.`cy_admin_user` AS b WHERE a.sender_id = b.user_id AND a.receiver_id = '1' AND a.readed = 0 AND deleted = 0 ORDER BY a.sent_time DESC
+
+SELECT pay_id, is_cod FROM `db_fresh_shop`.`cy_payment` WHERE enabled = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status  IN ('1','5')  AND shipping_status  IN ('1','2')  AND pay_status  IN ('2','1')  
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5','6')  AND   shipping_status  IN ('0','3','5')  AND ( pay_status  IN ('2','1')  OR pay_id  IN ('2') ) 
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5')  AND   pay_status = '0' AND ( shipping_status  IN ('1','2')  OR pay_id  IN ('1') ) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status = '0' 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE  shipping_status=4
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512089860' AND promote_end_date >= '1512089860' AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512089860' AND promote_end_date >= '1512089860' AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_stats` WHERE access_time > 1512028800
+
+SELECT count(*) FROM `db_fresh_shop`.`cy_sessions`
+
+SELECT COUNT(f.msg_id) FROM `db_fresh_shop`.`cy_feedback` AS f LEFT JOIN `db_fresh_shop`.`cy_feedback` AS r ON r.parent_id=f.msg_id WHERE f.parent_id=0 AND ISNULL(r.msg_id) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_comment` WHERE status = 0 AND parent_id = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_booking_goods` WHERE is_dispose = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_user_account` WHERE process_type = 1 AND is_paid = 0 
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512116860
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512116860
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_users`
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'template'
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'stylename'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512118660', ip = '223.104.177.26', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512089860;}' WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512116860
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512116860
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT data, expiry FROM `db_fresh_shop`.`cy_sessions_data` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT user_id, user_name, password, action_list, last_login  FROM `db_fresh_shop`.`cy_admin_user` WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_admin_user` SET last_login = '1512096398', last_ip = '223.104.177.26' WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512125198', ip = '223.104.177.26', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";s:0:\"\";}' WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512123398
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT message_id, sender_id, receiver_id, sent_time, readed, deleted, title, message, user_name FROM `db_fresh_shop`.`cy_admin_message` AS a, `db_fresh_shop`.`cy_admin_user` AS b WHERE a.sender_id = b.user_id AND a.receiver_id = '1' AND a.readed = 0 AND deleted = 0 ORDER BY a.sent_time DESC
+
+SELECT pay_id, is_cod FROM `db_fresh_shop`.`cy_payment` WHERE enabled = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status  IN ('1','5')  AND shipping_status  IN ('1','2')  AND pay_status  IN ('2','1')  
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5','6')  AND   shipping_status  IN ('0','3','5')  AND ( pay_status  IN ('2','1')  OR pay_id  IN ('2') ) 
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5')  AND   pay_status = '0' AND ( shipping_status  IN ('1','2')  OR pay_id  IN ('1') ) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status = '0' 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE  shipping_status=4
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512096399' AND promote_end_date >= '1512096399' AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512096399' AND promote_end_date >= '1512096399' AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_stats` WHERE access_time > 1512028800
+
+SELECT count(*) FROM `db_fresh_shop`.`cy_sessions`
+
+SELECT COUNT(f.msg_id) FROM `db_fresh_shop`.`cy_feedback` AS f LEFT JOIN `db_fresh_shop`.`cy_feedback` AS r ON r.parent_id=f.msg_id WHERE f.parent_id=0 AND ISNULL(r.msg_id) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_comment` WHERE status = 0 AND parent_id = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_booking_goods` WHERE is_dispose = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_user_account` WHERE process_type = 1 AND is_paid = 0 
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512125199', ip = '223.104.177.26', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512096399;}' WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512123399
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_users`
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'template'
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'stylename'
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512123400
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512125906', ip = '223.104.177.26', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512096399;}' WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512124106
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512124106
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT message_id, sender_id, receiver_id, sent_time, readed, deleted, title, message, user_name FROM `db_fresh_shop`.`cy_admin_message` AS a, `db_fresh_shop`.`cy_admin_user` AS b WHERE a.sender_id = b.user_id AND a.receiver_id = '1' AND a.readed = 0 AND deleted = 0 ORDER BY a.sent_time DESC
+
+SELECT pay_id, is_cod FROM `db_fresh_shop`.`cy_payment` WHERE enabled = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status  IN ('1','5')  AND shipping_status  IN ('1','2')  AND pay_status  IN ('2','1')  
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5','6')  AND   shipping_status  IN ('0','3','5')  AND ( pay_status  IN ('2','1')  OR pay_id  IN ('2') ) 
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5')  AND   pay_status = '0' AND ( shipping_status  IN ('1','2')  OR pay_id  IN ('1') ) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status = '0' 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE  shipping_status=4
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512097107' AND promote_end_date >= '1512097107' AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512097107' AND promote_end_date >= '1512097107' AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_stats` WHERE access_time > 1512028800
+
+SELECT count(*) FROM `db_fresh_shop`.`cy_sessions`
+
+SELECT COUNT(f.msg_id) FROM `db_fresh_shop`.`cy_feedback` AS f LEFT JOIN `db_fresh_shop`.`cy_feedback` AS r ON r.parent_id=f.msg_id WHERE f.parent_id=0 AND ISNULL(r.msg_id) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_comment` WHERE status = 0 AND parent_id = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_booking_goods` WHERE is_dispose = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_user_account` WHERE process_type = 1 AND is_paid = 0 
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f'
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_users`
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'template'
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'stylename'
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512124107
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE add_time >= '1512096399'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE pay_time >= 1512096399
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512125907', ip = '223.104.177.26', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512097107;}' WHERE sesskey = 'c40a534d9146be93d67eab0a6a19b45f' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions` WHERE expiry < 1512124108
+
+INSERT INTO `db_fresh_shop`.`cy_sessions` (sesskey, expiry, ip, data) VALUES ('2f4df4a94ffab6698ce7c2007127de59', '1512138363', '123.190.133.162', 'a:0:{}')
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT user_id, user_name, password, action_list, last_login  FROM `db_fresh_shop`.`cy_admin_user` WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_admin_user` SET last_login = '1512109563', last_ip = '123.190.133.162' WHERE user_id = '1'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512138363', ip = '123.190.133.162', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";s:0:\"\";}' WHERE sesskey = '2f4df4a94ffab6698ce7c2007127de59' LIMIT 1
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '2f4df4a94ffab6698ce7c2007127de59'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT message_id, sender_id, receiver_id, sent_time, readed, deleted, title, message, user_name FROM `db_fresh_shop`.`cy_admin_message` AS a, `db_fresh_shop`.`cy_admin_user` AS b WHERE a.sender_id = b.user_id AND a.receiver_id = '1' AND a.readed = 0 AND deleted = 0 ORDER BY a.sent_time DESC
+
+SELECT pay_id, is_cod FROM `db_fresh_shop`.`cy_payment` WHERE enabled = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status  IN ('1','5')  AND shipping_status  IN ('1','2')  AND pay_status  IN ('2','1')  
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5','6')  AND   shipping_status  IN ('0','3','5')  AND ( pay_status  IN ('2','1')  OR pay_id  IN ('2') ) 
+
+SELECT pay_id FROM `db_fresh_shop`.`cy_payment` WHERE is_cod = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND   order_status  IN ('1','5')  AND   pay_status = '0' AND ( shipping_status  IN ('1','2')  OR pay_id  IN ('1') ) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE 1  AND order_status = '0' 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_order_info` WHERE  shipping_status=4
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_new = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_best = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_hot = 1 AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512109563' AND promote_end_date >= '1512109563' AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND promote_price>0 AND promote_start_date <= '1512109563' AND promote_end_date >= '1512109563' AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND goods_number <= warn_number AND is_real=0 AND extension_code='virtual_card'
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_stats` WHERE access_time > 1512028800
+
+SELECT count(*) FROM `db_fresh_shop`.`cy_sessions`
+
+SELECT COUNT(f.msg_id) FROM `db_fresh_shop`.`cy_feedback` AS f LEFT JOIN `db_fresh_shop`.`cy_feedback` AS r ON r.parent_id=f.msg_id WHERE f.parent_id=0 AND ISNULL(r.msg_id) 
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_comment` WHERE status = 0 AND parent_id = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_booking_goods` WHERE is_dispose = 0
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_user_account` WHERE process_type = 1 AND is_paid = 0 
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512136563
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '2f4df4a94ffab6698ce7c2007127de59'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '2f4df4a94ffab6698ce7c2007127de59'
+
+UPDATE `db_fresh_shop`.`cy_sessions` SET expiry = '1512138363', ip = '123.190.133.162', userid = '0', adminid = '1', user_name='0', user_rank='0', discount='0', email='0', data = 'a:3:{s:10:\"admin_name\";s:5:\"admin\";s:11:\"action_list\";s:3:\"all\";s:10:\"last_check\";i:1512109563;}' WHERE sesskey = '2f4df4a94ffab6698ce7c2007127de59' LIMIT 1
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512136563
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT userid, adminid, user_name, user_rank, discount, email, data, expiry FROM `db_fresh_shop`.`cy_sessions` WHERE sesskey = '2f4df4a94ffab6698ce7c2007127de59'
+
+SELECT code, value FROM `db_fresh_shop`.`cy_shop_config` WHERE parent_id > 0
+
+SELECT COUNT(*) AS oCount, IFNULL(SUM(order_amount), 0) AS oAmount FROM `db_fresh_shop`.`cy_order_info`
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_goods` WHERE is_delete = 0 AND is_alone_sale = 1 AND is_real = 1
+
+SELECT COUNT(*) FROM `db_fresh_shop`.`cy_users`
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'template'
+
+SELECT value FROM `db_fresh_shop`.`cy_shop_config` WHERE code = 'stylename'
+
+DELETE FROM `db_fresh_shop`.`cy_sessions_data` WHERE expiry < 1512136565
+

@@ -1,0 +1,72 @@
+2018-01-01 21:41:04 | 140.207.54.75 | /vshop/api/notify/wxpay.php | MySQL Query Error<br>
+					<b>SQL</b>: UPDATE cy_pay_log SET openid = "o18tFs2oo9WLyeI4NzYl2x96HfAs", transid = "4200000007201801016202081205"  WHERE log_id = 123<br>
+					<b>错误详情</b>: Unknown column 'transid' in 'field list'<br>
+					<b>错误代码</b>:1054<br>
+2018-01-01 21:41:15 | 140.207.54.76 | /vshop/api/notify/wxpay.php | MySQL Query Error<br>
+					<b>SQL</b>: UPDATE cy_pay_log SET openid = "o18tFs2oo9WLyeI4NzYl2x96HfAs", transid = "4200000007201801016202081205"  WHERE log_id = 123<br>
+					<b>错误详情</b>: Unknown column 'transid' in 'field list'<br>
+					<b>错误代码</b>:1054<br>
+2018-01-01 21:41:31 | 140.207.54.75 | /vshop/api/notify/wxpay.php | MySQL Query Error<br>
+					<b>SQL</b>: UPDATE cy_pay_log SET openid = "o18tFs2oo9WLyeI4NzYl2x96HfAs", transid = "4200000007201801016202081205"  WHERE log_id = 123<br>
+					<b>错误详情</b>: Unknown column 'transid' in 'field list'<br>
+					<b>错误代码</b>:1054<br>
+2018-01-01 21:42:04 | 140.207.54.76 | /vshop/api/notify/wxpay.php | MySQL Query Error<br>
+					<b>SQL</b>: UPDATE cy_pay_log SET openid = "o18tFs2oo9WLyeI4NzYl2x96HfAs", transid = "4200000007201801016202081205"  WHERE log_id = 123<br>
+					<b>错误详情</b>: Unknown column 'transid' in 'field list'<br>
+					<b>错误代码</b>:1054<br>
+2018-01-01 21:43:56 | 140.207.54.75 | /vshop/api/notify/wxpay.php | MySQL Query Error<br>
+					<b>SQL</b>: UPDATE cy_pay_log SET openid = "o18tFs2oo9WLyeI4NzYl2x96HfAs", transid = "4200000027201801016145688425"  WHERE log_id = 124<br>
+					<b>错误详情</b>: <br>
+					<b>错误代码</b>:0<br>
+2018-01-01 21:44:11 | 140.207.54.75 | /vshop/api/notify/wxpay.php | MySQL Query Error<br>
+					<b>SQL</b>: UPDATE cy_pay_log SET openid = "o18tFs2oo9WLyeI4NzYl2x96HfAs", transid = "4200000027201801016145688425"  WHERE log_id = 124<br>
+					<b>错误详情</b>: Unknown column 'transid' in 'field list'<br>
+					<b>错误代码</b>:1054<br>
+2018-01-01 21:44:29 | 140.207.54.75 | /vshop/api/notify/wxpay.php | MySQL Query Error<br>
+					<b>SQL</b>: UPDATE cy_pay_log SET openid = "o18tFs2oo9WLyeI4NzYl2x96HfAs", transid = "4200000027201801016145688425"  WHERE log_id = 124<br>
+					<b>错误详情</b>: Unknown column 'transid' in 'field list'<br>
+					<b>错误代码</b>:1054<br>
+2018-01-01 21:45:01 | 140.207.54.75 | /vshop/api/notify/wxpay.php | MySQL Query Error<br>
+					<b>SQL</b>: UPDATE cy_pay_log SET openid = "o18tFs2oo9WLyeI4NzYl2x96HfAs", transid = "4200000027201801016145688425"  WHERE log_id = 124<br>
+					<b>错误详情</b>: Unknown column 'transid' in 'field list'<br>
+					<b>错误代码</b>:1054<br>
+2018-01-01 21:45:05 | 140.207.54.75 | /vshop/api/notify/wxpay.php | MySQL Query Error<br>
+					<b>SQL</b>: UPDATE cy_pay_log SET openid = "o18tFs2oo9WLyeI4NzYl2x96HfAs", transid = "4200000007201801016202081205"  WHERE log_id = 123<br>
+					<b>错误详情</b>: Unknown column 'transid' in 'field list'<br>
+					<b>错误代码</b>:1054<br>
+2018-01-01 21:48:03 | 140.207.54.73 | /vshop/api/notify/wxpay.php | MySQL Query Error<br>
+					<b>SQL</b>: UPDATE cy_pay_log SET openid = "o18tFs2oo9WLyeI4NzYl2x96HfAs", transid = "4200000027201801016145688425"  WHERE log_id = 124<br>
+					<b>错误详情</b>: Unknown column 'transid' in 'field list'<br>
+					<b>错误代码</b>:1054<br>
+2018-01-01 22:15:08 | 140.207.54.73 | /vshop/api/notify/wxpay.php | MySQL Query Error<br>
+					<b>SQL</b>: UPDATE cy_pay_log SET openid = "o18tFs2oo9WLyeI4NzYl2x96HfAs", transid = "4200000007201801016202081205"  WHERE log_id = 123<br>
+					<b>错误详情</b>: Unknown column 'transid' in 'field list'<br>
+					<b>错误代码</b>:1054<br>
+2018-01-01 22:18:05 | 140.207.54.74 | /vshop/api/notify/wxpay.php | MySQL Query Error<br>
+					<b>SQL</b>: UPDATE cy_pay_log SET openid = "o18tFs2oo9WLyeI4NzYl2x96HfAs", transid = "4200000027201801016145688425"  WHERE log_id = 124<br>
+					<b>错误详情</b>: Unknown column 'transid' in 'field list'<br>
+					<b>错误代码</b>:1054<br>
+2018-01-01 22:45:09 | 140.207.54.73 | /vshop/api/notify/wxpay.php | MySQL Query Error<br>
+					<b>SQL</b>: UPDATE cy_pay_log SET openid = "o18tFs2oo9WLyeI4NzYl2x96HfAs", transid = "4200000007201801016202081205"  WHERE log_id = 123<br>
+					<b>错误详情</b>: Unknown column 'transid' in 'field list'<br>
+					<b>错误代码</b>:1054<br>
+2018-01-01 22:48:06 | 140.207.54.75 | /vshop/api/notify/wxpay.php | MySQL Query Error<br>
+					<b>SQL</b>: UPDATE cy_pay_log SET openid = "o18tFs2oo9WLyeI4NzYl2x96HfAs", transid = "4200000027201801016145688425"  WHERE log_id = 124<br>
+					<b>错误详情</b>: Unknown column 'transid' in 'field list'<br>
+					<b>错误代码</b>:1054<br>
+2018-01-01 23:15:10 | 140.207.54.73 | /vshop/api/notify/wxpay.php | MySQL Query Error<br>
+					<b>SQL</b>: UPDATE cy_pay_log SET openid = "o18tFs2oo9WLyeI4NzYl2x96HfAs", transid = "4200000007201801016202081205"  WHERE log_id = 123<br>
+					<b>错误详情</b>: Unknown column 'transid' in 'field list'<br>
+					<b>错误代码</b>:1054<br>
+2018-01-01 23:18:07 | 140.207.54.74 | /vshop/api/notify/wxpay.php | MySQL Query Error<br>
+					<b>SQL</b>: UPDATE cy_pay_log SET openid = "o18tFs2oo9WLyeI4NzYl2x96HfAs", transid = "4200000027201801016145688425"  WHERE log_id = 124<br>
+					<b>错误详情</b>: Unknown column 'transid' in 'field list'<br>
+					<b>错误代码</b>:1054<br>
+2018-01-01 23:45:13 | 140.207.54.75 | /vshop/api/notify/wxpay.php | MySQL Query Error<br>
+					<b>SQL</b>: UPDATE cy_pay_log SET openid = "o18tFs2oo9WLyeI4NzYl2x96HfAs", transid = "4200000007201801016202081205"  WHERE log_id = 123<br>
+					<b>错误详情</b>: Unknown column 'transid' in 'field list'<br>
+					<b>错误代码</b>:1054<br>
+2018-01-01 23:48:09 | 140.207.54.76 | /vshop/api/notify/wxpay.php | MySQL Query Error<br>
+					<b>SQL</b>: UPDATE cy_pay_log SET openid = "o18tFs2oo9WLyeI4NzYl2x96HfAs", transid = "4200000027201801016145688425"  WHERE log_id = 124<br>
+					<b>错误详情</b>: Unknown column 'transid' in 'field list'<br>
+					<b>错误代码</b>:1054<br>
