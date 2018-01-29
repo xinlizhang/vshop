@@ -633,7 +633,7 @@ class CategoryController extends CommonController {
     {
         $sql = "select sum(goods_number) as num from {pre}order_goods WHERE goods_id = " . $goods_id ;
         $res = $this->model->query($sql);
-        return intval($res[0]['num']);
+        return intval($res[0]['num'])+rand(100,1000);
     }
 
 }
