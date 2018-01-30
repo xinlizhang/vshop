@@ -1597,5 +1597,5 @@ function get_goods_count($goods_id)
         " AND o . pay_status " . db_create_in(array(PS_PAYED, PS_PAYING)) .
         " AND g . goods_id = '$goods_id'";
     $result = M()->getRow($sql);
-    return $result['count'];
+    return $result['count']+rand(100,1000);
 }
