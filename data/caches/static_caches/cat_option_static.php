@@ -2426,11 +2426,27 @@ $data = array (
     'show_in_nav' => '0',
     'grade' => '0',
     'sort_order' => '4',
-    'has_children' => '5',
+    'has_children' => '8',
     'goods_num' => 0,
     'level' => 0,
     'id' => '250',
     'name' => '精品干果',
+  ),
+  258 => 
+  array (
+    'cat_id' => '258',
+    'cat_name' => '开心果（大开）500g',
+    'measure_unit' => '',
+    'parent_id' => '250',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+    'level' => 1,
+    'id' => '258',
+    'name' => '开心果（大开）500g',
   ),
   255 => 
   array (
@@ -2464,6 +2480,22 @@ $data = array (
     'id' => '252',
     'name' => '开口松子 500g',
   ),
+  259 => 
+  array (
+    'cat_id' => '259',
+    'cat_name' => '夏威夷果500g',
+    'measure_unit' => '',
+    'parent_id' => '250',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+    'level' => 1,
+    'id' => '259',
+    'name' => '夏威夷果500g',
+  ),
   253 => 
   array (
     'cat_id' => '253',
@@ -2479,6 +2511,22 @@ $data = array (
     'level' => 1,
     'id' => '253',
     'name' => '原味毛克 500g',
+  ),
+  260 => 
+  array (
+    'cat_id' => '260',
+    'cat_name' => '美国大榛子（二圆）500g',
+    'measure_unit' => '',
+    'parent_id' => '250',
+    'is_show' => '1',
+    'show_in_nav' => '0',
+    'grade' => '0',
+    'sort_order' => '50',
+    'has_children' => '0',
+    'goods_num' => '1',
+    'level' => 1,
+    'id' => '260',
+    'name' => '美国大榛子（二圆）500g',
   ),
   254 => 
   array (

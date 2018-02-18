@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:5:{i:0;s:40:"/data/web/vshop/themes/default/index.dwt";i:1;s:52:"/data/web/vshop/themes/default/library/cat_goods.lbi";i:2;s:58:"/data/web/vshop/themes/default/library/page_index_menu.lbi";i:3;s:55:"/data/web/vshop/themes/default/library/search_index.lbi";i:4;s:54:"/data/web/vshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1517279208;s:8:"maketime";i:1517275608;}<!DOCTYPE html>
+<?php exit;?>a:3:{s:8:"template";a:5:{i:0;s:40:"/data/web/vshop/themes/default/index.dwt";i:1;s:52:"/data/web/vshop/themes/default/library/cat_goods.lbi";i:2;s:58:"/data/web/vshop/themes/default/library/page_index_menu.lbi";i:3;s:55:"/data/web/vshop/themes/default/library/search_index.lbi";i:4;s:54:"/data/web/vshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1518830278;s:8:"maketime";i:1518826678;}<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta name="Generator" content="ECTouch 2.2.25" />
@@ -164,7 +164,8 @@
 			$(".search").hide();
 		}
 	}
-</script><script type="text/javascript">
+</script>
+<script type="text/javascript">
 get_asynclist("/vshop/index.php?m=default&c=index&a=ajax_goods&type=best&u=79" , '__TPL__/images/loader.gif');
 </script>
 <script>
