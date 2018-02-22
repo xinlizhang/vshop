@@ -2,23 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="459973aa-67ea-4f72-97ee-026eb8f2e3fc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/caches/a/index_F7D7F80A.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/query_caches/sqlcache_config_file_7661dbf953dc3130cc3670a43c166f12.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517559537291046.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517559537477002.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517559537585478.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517559537596087.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517559537610153.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517559537617499.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517559537787305.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517559537809687.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560072166781.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560072316827.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560072386496.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560072569610.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560072771613.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560677191877.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560677502496.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560677621538.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560677689296.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560677982908.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560677983072.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-01-31_47949ac479fbab0bb5b289a88b4644ab.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-02_47949ac479fbab0bb5b289a88b4644ab.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-03_47949ac479fbab0bb5b289a88b4644ab.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-04_47949ac479fbab0bb5b289a88b4644ab.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-05_47949ac479fbab0bb5b289a88b4644ab.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-06_47949ac479fbab0bb5b289a88b4644ab.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-07_47949ac479fbab0bb5b289a88b4644ab.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-09_47949ac479fbab0bb5b289a88b4644ab.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-10_47949ac479fbab0bb5b289a88b4644ab.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-11_47949ac479fbab0bb5b289a88b4644ab.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-16_47949ac479fbab0bb5b289a88b4644ab.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_01_31.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_01.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_02.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_03.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_04.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_05.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_06.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_07.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_08.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_09.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_10.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_11.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_12.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_13.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_14.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_15.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_16.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_17.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_18.log" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/caches/a/index_F7D7F80A.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/asynclist_index.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/cat_goods.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/comments.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/comments_list.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/flow.dwt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/flow_cart.dwt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/flow_checkout.dwt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/flow_done.dwt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/goods.dwt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/goods_info.dwt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/index.dwt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/order_total.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/page_footer.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/page_footer_nav.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/page_header.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/page_index_menu.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/page_menu.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/page_user_menu.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/search.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/search_index.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/user.dwt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/user_header.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/user_login.dwt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/admin/message.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/admin/pagefooter.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/admin/pageheader.htm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/asynclist_index.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/comments.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/comments_list.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/goods_info.dwt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/index.dwt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/page_footer.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/page_footer_nav.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/page_header.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/page_index_menu.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/page_menu.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/recommend_promotion.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/search.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/search_index.lbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/static_caches/art_cat_pid_releate.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/caches/a/index_F7D7F80A.php" afterPath="$PROJECT_DIR$/data/caches/caches/a/index_F7D7F80A.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/ce04f18e05d45922e2e2d14c3e051eeb.php" afterPath="$PROJECT_DIR$/data/caches/ce04f18e05d45922e2e2d14c3e051eeb.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/compiled/cat_goods.lbi.php" afterPath="$PROJECT_DIR$/data/caches/compiled/cat_goods.lbi.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/compiled/goods.dwt.php" afterPath="$PROJECT_DIR$/data/caches/compiled/goods.dwt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/compiled/index.dwt.php" afterPath="$PROJECT_DIR$/data/caches/compiled/index.dwt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/compiled/page_footer.lbi.php" afterPath="$PROJECT_DIR$/data/caches/compiled/page_footer.lbi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/static_caches/art_cat_pid_releate.php" afterPath="$PROJECT_DIR$/data/caches/static_caches/art_cat_pid_releate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_01_30.log" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_01_30.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/query_caches/sqlcache_config_file_778976ee0ba633ef259d094ae7248093.php" afterPath="$PROJECT_DIR$/data/caches/query_caches/sqlcache_config_file_778976ee0ba633ef259d094ae7248093.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/static_caches/cat_option_static.php" afterPath="$PROJECT_DIR$/data/caches/static_caches/cat_option_static.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/static_caches/cat_pid_releate.php" afterPath="$PROJECT_DIR$/data/caches/static_caches/cat_pid_releate.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/static_caches/shop_config.php" afterPath="$PROJECT_DIR$/data/caches/static_caches/shop_config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/apps/default/controllers/IndexController.class.php" afterPath="$PROJECT_DIR$/include/apps/default/controllers/IndexController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/apps/default/controllers/StoreController.class.php" afterPath="$PROJECT_DIR$/include/apps/default/controllers/StoreController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/apps/default/models/IndexModel.class.php" afterPath="$PROJECT_DIR$/include/apps/default/models/IndexModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/helpers/goods_helper.php" afterPath="$PROJECT_DIR$/include/helpers/goods_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/css/index.css" afterPath="$PROJECT_DIR$/themes/default/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/index.dwt" afterPath="$PROJECT_DIR$/themes/default/index.dwt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/library/page_footer.lbi" afterPath="$PROJECT_DIR$/themes/default/library/page_footer.lbi" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/IndexController.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="259">
-              <caret line="38" column="50" lean-forward="true" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+              <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -44,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/themes/default/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="146">
-              <caret line="3401" column="1" lean-forward="true" selection-start-line="3401" selection-start-column="1" selection-end-line="3401" selection-end-column="1" />
+              <caret line="3401" column="1" lean-forward="false" selection-start-line="3401" selection-start-column="1" selection-end-line="3401" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -83,8 +166,8 @@
       <file leaf-file-name="IndexModel.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/apps/default/models/IndexModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="128" column="64" lean-forward="false" selection-start-line="128" selection-start-column="64" selection-end-line="128" selection-end-column="64" />
+            <state relative-caret-position="402">
+              <caret line="139" column="13" lean-forward="false" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
               <folding>
                 <marker date="1519269360411" expanded="true" signature="7761:7983" ph="SELECT c.cat... ${$this-&gt;pre}" />
                 <marker date="1519269360411" expanded="true" signature="9394:9593" ph="SELECT count... ${$this-&gt;pre}" />
@@ -296,6 +379,38 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vshop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vshop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="caches" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -438,19 +553,18 @@
       <workItem from="1517906132047" duration="1742000" />
       <workItem from="1518655454386" duration="8697000" />
       <workItem from="1519083306560" duration="2305000" />
-      <workItem from="1519097639472" duration="8762000" />
+      <workItem from="1519097639472" duration="9737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29370000" />
+    <option name="totallyTimeSpent" value="30345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18012924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18012924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -482,7 +596,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/version.php" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -496,6 +609,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -879,7 +993,7 @@
     <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
-          <caret line="38" column="50" lean-forward="true" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+          <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -887,7 +1001,7 @@
     <entry file="file://$PROJECT_DIR$/themes/default/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
-          <caret line="3401" column="1" lean-forward="true" selection-start-line="3401" selection-start-column="1" selection-end-line="3401" selection-end-column="1" />
+          <caret line="3401" column="1" lean-forward="false" selection-start-line="3401" selection-start-column="1" selection-end-line="3401" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -908,10 +1022,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/caches/static_caches/shop_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-370">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/apps/default/models/IndexModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="128" column="64" lean-forward="false" selection-start-line="128" selection-start-column="64" selection-end-line="128" selection-end-column="64" />
+        <state relative-caret-position="402">
+          <caret line="139" column="13" lean-forward="false" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
           <folding>
             <marker date="1519269360411" expanded="true" signature="7761:7983" ph="SELECT c.cat... ${$this-&gt;pre}" />
             <marker date="1519269360411" expanded="true" signature="9394:9593" ph="SELECT count... ${$this-&gt;pre}" />
