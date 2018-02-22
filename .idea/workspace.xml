@@ -2,106 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="459973aa-67ea-4f72-97ee-026eb8f2e3fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517559537291046.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517559537477002.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517559537585478.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517559537596087.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517559537610153.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517559537617499.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517559537787305.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517559537809687.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560072166781.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560072316827.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560072386496.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560072569610.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560072771613.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560677191877.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560677502496.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560677621538.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560677689296.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560677982908.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/attached/image/20180202/1517560677983072.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-01-31_47949ac479fbab0bb5b289a88b4644ab.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-02_47949ac479fbab0bb5b289a88b4644ab.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-03_47949ac479fbab0bb5b289a88b4644ab.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-04_47949ac479fbab0bb5b289a88b4644ab.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-05_47949ac479fbab0bb5b289a88b4644ab.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-06_47949ac479fbab0bb5b289a88b4644ab.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-07_47949ac479fbab0bb5b289a88b4644ab.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-09_47949ac479fbab0bb5b289a88b4644ab.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-10_47949ac479fbab0bb5b289a88b4644ab.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-11_47949ac479fbab0bb5b289a88b4644ab.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/2018-02-16_47949ac479fbab0bb5b289a88b4644ab.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_01_31.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_01.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_02.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_03.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_04.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_05.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_06.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_07.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_08.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_09.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_10.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_11.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_12.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_13.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_14.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_15.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_16.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_17.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_02_18.log" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/caches/a/index_F7D7F80A.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/asynclist_index.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/cat_goods.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/comments.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/comments_list.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/flow.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/flow_cart.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/flow_checkout.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/flow_done.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/goods.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/goods_info.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/index.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/order_total.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/page_footer.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/page_footer_nav.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/page_header.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/page_index_menu.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/page_menu.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/page_user_menu.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/search.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/search_index.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/user.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/user_header.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cache/compiled/user_login.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/admin/message.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/admin/pagefooter.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/admin/pageheader.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/asynclist_index.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/comments.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/comments_list.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/goods_info.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/index.dwt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/page_footer.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/page_footer_nav.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/page_header.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/page_index_menu.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/page_menu.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/recommend_promotion.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/search.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/compiled/search_index.lbi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/caches/static_caches/art_cat_pid_releate.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/caches/a/index_F7D7F80A.php" afterPath="$PROJECT_DIR$/data/caches/caches/a/index_F7D7F80A.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/ce04f18e05d45922e2e2d14c3e051eeb.php" afterPath="$PROJECT_DIR$/data/caches/ce04f18e05d45922e2e2d14c3e051eeb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/compiled/cat_goods.lbi.php" afterPath="$PROJECT_DIR$/data/caches/compiled/cat_goods.lbi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/compiled/goods.dwt.php" afterPath="$PROJECT_DIR$/data/caches/compiled/goods.dwt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_01_30.log" afterPath="$PROJECT_DIR$/data/caches/logs/mysql_query_7661dbf953dc3130cc3670a43c166f12_2018_01_30.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/query_caches/sqlcache_config_file_778976ee0ba633ef259d094ae7248093.php" afterPath="$PROJECT_DIR$/data/caches/query_caches/sqlcache_config_file_778976ee0ba633ef259d094ae7248093.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/static_caches/cat_option_static.php" afterPath="$PROJECT_DIR$/data/caches/static_caches/cat_option_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/static_caches/cat_pid_releate.php" afterPath="$PROJECT_DIR$/data/caches/static_caches/cat_pid_releate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/caches/static_caches/shop_config.php" afterPath="$PROJECT_DIR$/data/caches/static_caches/shop_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/css/index.css" afterPath="$PROJECT_DIR$/themes/default/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/index.dwt" afterPath="$PROJECT_DIR$/themes/default/index.dwt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -123,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/default/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="3401" column="1" lean-forward="false" selection-start-line="3401" selection-start-column="1" selection-end-line="3401" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="3437" column="21" lean-forward="true" selection-start-line="3437" selection-start-column="21" selection-end-line="3437" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -136,8 +39,8 @@
       <file leaf-file-name="index.dwt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/default/index.dwt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="97" column="2" lean-forward="false" selection-start-line="97" selection-start-column="2" selection-end-line="97" selection-end-column="2" />
+            <state relative-caret-position="50">
+              <caret line="47" column="12" lean-forward="false" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -163,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexModel.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IndexModel.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/apps/default/models/IndexModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="402">
@@ -171,21 +74,6 @@
               <folding>
                 <marker date="1519269360411" expanded="true" signature="7761:7983" ph="SELECT c.cat... ${$this-&gt;pre}" />
                 <marker date="1519269360411" expanded="true" signature="9394:9593" ph="SELECT count... ${$this-&gt;pre}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/apps/default/models/CommonModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="148" column="4" lean-forward="false" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
-              <folding>
-                <marker date="1517890105515" expanded="true" signature="893:1051" ph="SELECT id, n... ${$this-&gt;pre}" />
-                <marker date="1517890105515" expanded="true" signature="3691:4123" ph="INSERT INTO ${$this-&gt;pre}stats... " />
-                <marker date="1517890105515" expanded="true" signature="5838:6017" ph="SELECT libra... ${$this-&gt;pre}" />
-                <marker date="1517890105515" expanded="true" signature="7105:7208" ph="SELECT * FRO... ${$this-&gt;pre}" />
               </folding>
             </state>
           </provider>
@@ -207,8 +95,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>index-mo</find>
-      <find>promotion-goods</find>
       <find>index-main</find>
       <find>con</find>
       <find>.con</find>
@@ -237,6 +123,8 @@
       <find>functionget_promote_goods</find>
       <find>function get_promote_goods</find>
       <find>name</find>
+      <find>p-time</find>
+      <find>index-more</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/data</dir>
@@ -256,9 +144,9 @@
         <option value="$PROJECT_DIR$/include/apps/default/models/IndexModel.class.php" />
         <option value="$PROJECT_DIR$/include/apps/default/controllers/StoreController.class.php" />
         <option value="$PROJECT_DIR$/include/apps/default/controllers/IndexController.class.php" />
-        <option value="$PROJECT_DIR$/themes/default/index.dwt" />
         <option value="$PROJECT_DIR$/themes/default/library/recommend_promotion.lbi" />
         <option value="$PROJECT_DIR$/admin/includes/lib_template.php" />
+        <option value="$PROJECT_DIR$/themes/default/index.dwt" />
         <option value="$PROJECT_DIR$/themes/default/css/index.css" />
       </list>
     </option>
@@ -340,74 +228,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vshop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vshop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vshop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vshop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="caches" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -558,13 +378,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30345000" />
+    <option name="totallyTimeSpent" value="31231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18012924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18012924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -576,11 +397,23 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27945206" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18012924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27945206" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,20 +429,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="384" column="9" lean-forward="false" selection-start-line="384" selection-start-column="9" selection-end-line="384" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/respond.php" />
     <entry file="file://$PROJECT_DIR$/include/apps/common/controllers/Controller.class.php" />
     <entry file="file://$PROJECT_DIR$/data/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,19 +529,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/cache/compiled/goods.dwt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="47" column="47" lean-forward="false" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/cache/compiled/goods.dwt.php" />
     <entry file="file://$PROJECT_DIR$/themes/default/css/member.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -725,7 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="263" column="44" lean-forward="false" selection-start-line="263" selection-start-column="44" selection-end-line="263" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,7 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-969">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,7 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,7 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="28" column="50" lean-forward="false" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,7 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="388" column="12" lean-forward="false" selection-start-line="388" selection-start-column="12" selection-end-line="388" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,7 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -947,7 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,7 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,26 +787,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/index.dwt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="97" column="2" lean-forward="false" selection-start-line="97" selection-start-column="2" selection-end-line="97" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="3401" column="1" lean-forward="false" selection-start-line="3401" selection-start-column="1" selection-end-line="3401" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1026,8 +815,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-370">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/attached/afficheimg/index-theme-icon5.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/attached/afficheimg/1518885874066906772.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/apps/default/models/IndexModel.class.php">
@@ -1038,6 +836,22 @@
             <marker date="1519269360411" expanded="true" signature="7761:7983" ph="SELECT c.cat... ${$this-&gt;pre}" />
             <marker date="1519269360411" expanded="true" signature="9394:9593" ph="SELECT count... ${$this-&gt;pre}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/index.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="47" column="12" lean-forward="false" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="3437" column="21" lean-forward="true" selection-start-line="3437" selection-start-column="21" selection-end-line="3437" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

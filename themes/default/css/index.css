@@ -3421,10 +3421,25 @@ h3 {
 
 .index-more {
   width: 100%;
-  padding: 2%;
+  /*padding: 2%;*/
   height: auto;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
+.index-more .index-more-title {
+  margin-top:5px;
+  margin-bottom: 2px;
+  width: 206px;
+  height:35px;
+  line-height:35px;
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  border-color: transparent transparent #ff7e00 transparent;
+  text-align: center;
+  font-size: 14px;
+  font-weight:bold;
+  color: #ff7e00;
+}
 .index-more-icon {
   width: 100%;
   text-align: center;
@@ -3439,6 +3454,7 @@ h3 {
     display: block; }
 
 .index-more-list {
+  padding: 2%;
   overflow: hidden; }
   .index-more-list li {
     width: 49%;
