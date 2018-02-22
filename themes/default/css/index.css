@@ -3377,7 +3377,7 @@ h3 {
   font-weight:bold;
   color: #ff7e00;
 }
-.promotion-goods  dd.time-remain {
+.promotion-goods dd.time-remain {
   color: #999;
   line-height:36px;
   text-align: center;
@@ -3386,7 +3386,7 @@ h3 {
   left: 0;
   display: block;
 }
-.promotion-goods  dd.time-remain em {
+.promotion-goods dd.time-remain em {
   font-weight: bold;
   color: #ff7e00;
   margin: 0 2px;
@@ -3404,7 +3404,7 @@ h3 {
   width:30%;
   height: 100%;
 }
-.promotion-goods ul li img{margin-left:5px; width:170px; height:170px;}
+.promotion-goods ul li img{margin-left:10px; width:130px; height:130px;}
 .promotion-goods ul li b{font-weight: 600; color: #C00; font-size: 16px;line-height:33px; margin: 40px 0 10px 10px;}
 .promotion-goods ul li p{
   font-size: 14px;
@@ -3415,9 +3415,17 @@ h3 {
   line-height: 20px;
   top: 30px;
   left: 5px;
-  margin-left: 10px;
+  /*margin-left: 10px;*/
   overflow: hidden;
 }
+.promotion-focus {/*width:210px; height:280px;*/ overflow:hidden; position:relative; text-align:center;}
+.promotion-focus ul {/*height:280px; position:absolute;*/}
+.promotion-focus ul li {float:left; width:210px; height:auto; overflow:hidden; position:relative; background:#f5f5f5; margin-bottom: 20px;}
+.promotion-focus ul li div {position:absolute; overflow:hidden;}
+.promotion-goods .arrow {width:30px; height:100px; position:absolute; top:110px; background:url(images1/sprite.png) no-repeat 0 0; cursor:pointer;}
+.promotion-goods .pre {left:0;}
+.promotion-goods .next {right:0; background-position:right top;}
+
 
 .index-more {
   width: 100%;
