@@ -341,7 +341,7 @@ function get_promote_goods($cats = '')
     $order_type = C('recommend_order');
 
     /* 取得促销lbi的数量限制 */
-    $num = get_library_number("recommend_promotion");
+    $num = 10;//get_library_number("recommend_promotion");
     $sql = 'SELECT g.goods_id, g.goods_name, g.goods_name_style, g.market_price, g.shop_price AS org_price, g.promote_price, ' .
                 "IFNULL(mp.user_price, g.shop_price * '$_SESSION[discount]') AS shop_price, ".
                 "promote_start_date, promote_end_date, g.goods_brief, g.goods_thumb, goods_img, b.brand_name, " .
@@ -381,6 +381,15 @@ function get_promote_goods($cats = '')
         $goods[$idx]['thumb']        = get_image_path($row['goods_id'], $row['goods_thumb'], true);
         $goods[$idx]['goods_img']    = get_image_path($row['goods_id'], $row['goods_img']);
         $goods[$idx]['url']          = build_uri('goods', array('gid' => $row['goods_id']), $row['goods_name']);
+        $time = gmtime();
+        if ($time >= $row['promote_start_date'] && $time <= $row['promote_end_date'])
+        {
+            $goods[$idx]['gmt_end_time']  = local_date('M d, Y H:i:s',$row['promote_end_date']);
+        }
+        else
+        {
+            $goods[$idx]['gmt_end_time'] = 0;
+        }
     }
 
     return $goods;

@@ -14,7 +14,6 @@
 </style>
 </head>
 <body>
-<div class="con">
 <div class="index-max-box">
 <?php if (! $this->_var['subscribe']): ?>
 <!--div class="ect-attention dis-box" >
@@ -46,11 +45,10 @@
 	<div class="index-guanz-bg"></div>
 </div-->
 
-</script>
-<!div class="index-main comWidth">
-    <!--div class="swiper-container">
-      <div class="swiper-wrapper">
-        <?php 
+<div class="index-main comWidth">
+  <!-- <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <?php 
 $k = array (
   'name' => 'ads',
   'id' => '255',
@@ -58,20 +56,23 @@ $k = array (
 );
 echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
 ?>
-      </div>
-      <div class="swiper-pagination"></div>
     </div>
-    <div class="index-menu">
+    <div class="swiper-pagination"></div>
+  </div> -->
+
+  
+  <!-- <div class="index-menu">
     <ul class="index-menu-ul">
-    <?php $_from = $this->_var['navigator']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'nav');if (count($_from)):
+      <?php $_from = $this->_var['navigator']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'nav');if (count($_from)):
     foreach ($_from AS $this->_var['nav']):
 ?>
-    <li class="fl"><a href="<?php echo $this->_var['nav']['url']; ?>"><img src="<?php echo $this->_var['nav']['pic']; ?>" /></a><a class="index-menu-text" href="<?php echo $this->_var['nav']['url']; ?>"><?php echo $this->_var['nav']['name']; ?></a></li>
-    <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
+      <li class="fl"><a href="<?php echo $this->_var['nav']['url']; ?>"><img src="<?php echo $this->_var['nav']['pic']; ?>" /></a><a class="index-menu-text" href="<?php echo $this->_var['nav']['url']; ?>"><?php echo $this->_var['nav']['name']; ?></a></li>
+      <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
     </ul>
-    </div>
+  </div> -->
 
-  <div class="index-recom">
+  
+  <!-- <div class="index-recom">
       <div class="index-recom-left fl">
         <?php 
 $k = array (
@@ -104,22 +105,42 @@ $k = array (
 echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
 ?>
     </ul>
+  </div> -->
+
+  
+  <div id="focus" class="focus ect-margin-tb">
+    <div class="hd">
+      <ul>
+      </ul>
+    </div>
+    <div class="bd">
+      <?php 
+$k = array (
+  'name' => 'ads',
+  'id' => '255',
+  'num' => '3',
+);
+echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
+?>
+    </div>
   </div>
 
   <div class="index-theme" style="display:none">
       <ul class="index-more-list">
       <?php echo $this->fetch('library/cat_goods.lbi'); ?>
       </ul>
-  </div-->
-
-	<div class="index-more">
+  </div>
+  
+  <?php echo $this->fetch('library/recommend_promotion.lbi'); ?>
+	
+  <div class="index-more">
   	<div class="index-more-icon">
-      	<!--span>更多惊喜</span-->
-      </div>
-      <ul class="index-more-list" id="J_ItemList">
-        <div class="single_item"></div>
-        <a href="javascript:;" style="text-align:center" class="get_more"></a>
-      </ul>
+    	<!--span>更多惊喜</span-->
+    </div>
+    <ul class="index-more-list" id="J_ItemList">
+      <div class="single_item"></div>
+      <a href="javascript:;" style="text-align:center" class="get_more"></a>
+    </ul>
   </div>
 </div>
 
@@ -133,7 +154,20 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
 get_asynclist("<?php echo url('index/ajax_goods', array('type'=>'best'));?>" , '__TPL__/images/loader.gif');
 </script>
 <script>
-	/*立即关注*/
+	/*banner滚动图片*/
+		TouchSlide({
+			slideCell : "#focus",
+			titCell : ".hd ul", // 开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+			mainCell : ".bd ul",
+			effect : "left",
+			autoPlay : true, // 自动播放
+			autoPage : true, // 自动分页
+			delayTime: 200, // 毫秒；切换效果持续时间（执行一次效果用多少毫秒）
+			interTime: 2500, // 毫秒；自动运行间隔（隔多少毫秒后执行下一个效果）
+			switchLoad : "_src" // 切换加载，真实图片路径为"_src"
+		});
+	
+  /*立即关注*/
 	$(function($) {
 	  $(".lizhuanz").click(function(){
 		 $(".index-guanz-t").addClass("active");
@@ -142,11 +176,13 @@ get_asynclist("<?php echo url('index/ajax_goods', array('type'=>'best'));?>" , '
 		 $(".index-guanz-t").removeClass("active");
 	  });
 	});	
-	if($(".ect-attention").hasClass("ect-attention")){
-	$(".index-main").css({"marginTop":"8rem"})
-	}else{
-		 $(".index-main").css({"marginTop":"4rem"})
-		}
+
+	// if($(".ect-attention").hasClass("ect-attention")){
+	// $(".index-main").css({"marginTop":"8rem"})
+	// }else{
+	// 	 $(".index-main").css({"marginTop":"4rem"})
+	// 	}
+
     $(function($) {
         $(".ect-index-share").click(function(){
 

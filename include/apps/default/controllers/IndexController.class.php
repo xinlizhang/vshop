@@ -31,7 +31,8 @@ class IndexController extends CommonController {
             $this->assign('new_goods', model('Index')->goods_list('new', C('page_size')));
             $this->assign('hot_goods', model('Index')->goods_list('hot', C('page_size')));
             // 调用促销商品
-            $this->assign('promotion_goods', model('Index')->goods_list('promotion', C('page_size')));
+//            $this->assign('promotion_goods', model('Index')->goods_list('promotion', C('page_size')));
+            $this->assign('promotion_goods', model('Index')->get_promote_goods());
             //首页推荐分类
             $cat_rec = model('Index')->get_recommend_res(10,4);
             $this->assign('cat_best', $cat_rec[1]);

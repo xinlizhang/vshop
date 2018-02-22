@@ -3134,8 +3134,21 @@ h3 {
   -o-transition: all, 0.3s, ease;
   transition: all, 0.3s, ease;
   left: 0; }
-  .index-main.active {
-    left: 30%; }
+
+.index-main.active {  left: 30%; }
+
+.ect-margin-tb { margin-top: 0.6em; margin-bottom: 0.6em; }
+/*banner效果*/
+.focus { width: 100%; height: auto; position: relative; overflow: hidden; }
+.focus .hd { width: 100%; height: 0.8em; position: absolute; z-index: 1; text-align: center; bottom: 0.5em; }
+.focus .hd ul { display: inline-block; height: 0.8em; }
+.focus .hd ul li { display: inline-block; width: 0.6em; height: 0.6em; text-indent: -999em; background: rgba(255, 255, 255, 0.8); margin: 0 0.3em; vertical-align: top; overflow: hidden; border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%; -o-border-radius: 100%; }
+.focus .hd ul .on { background: #5babe6; }
+.focus .bd { position: relative; z-index: 0; }
+.focus .bd li { height: auto; overflow: hidden; }
+.focus .bd li a img { width: 100%; height: auto; display: block; margin: 0; padding: 0; }
+.focus .bd li a { -webkit-tap-highlight-color: rgba(0, 0, 0, 0);/* 取消链接高亮 */ }
+
 
 .index-menu {
   margin: 0 auto;
@@ -3348,6 +3361,63 @@ h3 {
       width: 49.2%;
       background-color: #F3F4F5;
       margin-bottom: 0.5rem; }
+
+/*限时打折banner样式*/
+.promotion-goods{float:left; width:100%; height:auto; margin-left:0px;}
+.promotion-goods .p-time {
+  margin-top:5px;
+  width: 206px;
+  height:35px;
+  line-height:35px;
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  border-color: transparent transparent #ff7e00 transparent;
+  text-align: center;
+  font-size: 14px;
+  font-weight:bold;
+  color: #ff7e00;
+}
+.promotion-goods  dd.time-remain {
+  color: #999;
+  line-height:36px;
+  text-align: center;
+  width: 100%;
+  height: 36px;
+  left: 0;
+  display: block;
+}
+.promotion-goods  dd.time-remain em {
+  font-weight: bold;
+  color: #ff7e00;
+  margin: 0 2px;
+  font-weight: bold;
+}
+.promotion-goods dd.time-remain i {
+  background: url(images1/icon_clock.png) no-repeat left bottom;
+  display: inline-block;
+  width: 11px;
+  height: 22px;
+  margin-right: 4px;
+  margin-bottom: -1px;
+}
+.promotion-goods ul li{
+  width:30%;
+  height: 100%;
+}
+.promotion-goods ul li img{margin-left:5px; width:170px; height:170px;}
+.promotion-goods ul li b{font-weight: 600; color: #C00; font-size: 16px;line-height:33px; margin: 40px 0 10px 10px;}
+.promotion-goods ul li p{
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  top: 30px;
+  left: 5px;
+  margin-left: 10px;
+  overflow: hidden;
+}
 
 .index-more {
   width: 100%;

@@ -33,6 +33,7 @@ class StoreController extends CommonController {
         $this->assign('drp_info',$drp_shop);
         $this->assign('news_goods_num',model('Index')->get_pro_goods('new'));
         $this->assign('promotion_goods_num', count(model('Index')->get_promote_goods()));
+        $this->assign('promotion_goods', model('Index')->get_promote_goods());
         $cat_rec = model('Index')->get_recommend_res(10,4);
         $this->assign('cat_best', $cat_rec[1]);
         $this->assign('cat_new', $cat_rec[2]);
