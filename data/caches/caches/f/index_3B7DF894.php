@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:6:{i:0;s:74:"/Users/zhangxinli/Documents/Projects/ChaoYi/vshop/themes/default/index.dwt";i:1;s:86:"/Users/zhangxinli/Documents/Projects/ChaoYi/vshop/themes/default/library/cat_goods.lbi";i:2;s:96:"/Users/zhangxinli/Documents/Projects/ChaoYi/vshop/themes/default/library/recommend_promotion.lbi";i:3;s:92:"/Users/zhangxinli/Documents/Projects/ChaoYi/vshop/themes/default/library/page_index_menu.lbi";i:4;s:89:"/Users/zhangxinli/Documents/Projects/ChaoYi/vshop/themes/default/library/search_index.lbi";i:5;s:88:"/Users/zhangxinli/Documents/Projects/ChaoYi/vshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1519278076;s:8:"maketime";i:1519274476;}<!DOCTYPE html>
+<?php exit;?>a:3:{s:8:"template";a:6:{i:0;s:40:"/data/web/vshop/themes/default/index.dwt";i:1;s:52:"/data/web/vshop/themes/default/library/cat_goods.lbi";i:2;s:62:"/data/web/vshop/themes/default/library/recommend_promotion.lbi";i:3;s:58:"/data/web/vshop/themes/default/library/page_index_menu.lbi";i:4;s:55:"/data/web/vshop/themes/default/library/search_index.lbi";i:5;s:54:"/data/web/vshop/themes/default/library/page_footer.lbi";}s:7:"expires";i:1519282331;s:8:"maketime";i:1519278731;}<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta name="Generator" content="ECTouch 2.2.25" />
@@ -26,7 +26,7 @@
 	</div>
 </div-->
 <!--header class="index-header comWidth">
-  <i class="index-header-menu iconfont fl" onclick="window.location = '/chaoyi/vshop/index.php?m=default&c=category&a=top_all&u=0'">&#xe627;</i>
+  <i class="index-header-menu iconfont fl" onclick="window.location = '/vshop/index.php?m=default&c=category&a=top_all&u=0'">&#xe627;</i>
   <div class="index-search-box fl">
     <input type="text" class="index-search-input" placeholder="商品搜索" onclick="openSearch();">
     <a href="javascript:void(0)" id="translateVoice" style="display:None;"><i class="index-search-sound iconfont fr">&#xe623;</i></a>
@@ -87,8 +87,8 @@
      
     <div class="single_item">
         <li class="fl" style="background-color: #FFFFFF;">
-          <a href="/chaoyi/vshop/index.php?m=default&c=goods&a=index&id=173&u=0"><img src="http://xinli.com/Chaoyi/vshop/images/201711/goods_img/173_G_1509510795715.jpg" alt="双汇冷鲜猪肉" /></a>
-      <a href="/chaoyi/vshop/index.php?m=default&c=goods&a=index&id=173&u=0"><p>双汇冷鲜猪肉</p></a>
+          <a href="/vshop/index.php?m=default&c=goods&a=index&id=173&u=0"><img src="http://www.disanqiche.com/vshop/images/201711/goods_img/173_G_1509510795715.jpg" alt="双汇冷鲜猪肉" /></a>
+      <a href="/vshop/index.php?m=default&c=goods&a=index&id=173&u=0"><p>双汇冷鲜猪肉</p></a>
       <span>￥11.98</span>
     </li>
     </div>
@@ -96,100 +96,7 @@
       </ul>
   </div>
   
-  <script >
-var Tday = new Array();
-var daysms = 24 * 60 * 60 * 1000
-var hoursms = 60 * 60 * 1000
-var Secondms = 60 * 1000
-var microsecond = 1000
-var DifferHour = -1
-var DifferMinute = -1
-var DifferSecond = -1
-function clock(key)
-{
-  var time = new Date()
-  var hour = time.getHours()
-  var minute = time.getMinutes()
-  var second = time.getSeconds()
-  var timevalue = ""+((hour > 12) ? hour-12:hour)
-  timevalue +=((minute < 10) ? ":0":":")+minute
-  timevalue +=((second < 10) ? ":0":":")+second
-  timevalue +=((hour >12 ) ? " PM":" AM")
-  var convertHour = DifferHour
-  var convertMinute = DifferMinute
-  var convertSecond = DifferSecond
-  var Diffms = Tday[key].getTime() - time.getTime()
-  DifferHour = Math.floor(Diffms / daysms)
-  Diffms -= DifferHour * daysms
-  DifferMinute = Math.floor(Diffms / hoursms)
-  Diffms -= DifferMinute * hoursms
-  DifferSecond = Math.floor(Diffms / Secondms)
-  Diffms -= DifferSecond * Secondms
-  var dSecs = Math.floor(Diffms / microsecond)
-  if(convertHour != DifferHour) a="<font color=red>"+DifferHour+"</font>天";
-  if(convertMinute != DifferMinute) b="<font color=red>"+DifferMinute+"</font>时";
-  if(convertSecond != DifferSecond) c="<font color=red>"+DifferSecond+"</font>分"
-   d="<font color=red>"+dSecs+"</font>秒"
-   if (DifferHour>0) {a=a}
-   else {a=''}
-  document.getElementById("leftTime"+key).innerHTML = a + b + c + d; //显示倒计时信息
-}
-</script>
-<div class="promotion-goods">
-  <div class="p-time">限时打折</div>
-  <div class="promotion-focus">
-    <ul>
-                        <li>
-            <dd class="time-remain"><font class="f4" id="leftTime0">请稍等, 正在载入中...</font></dd>
-            <a href="/chaoyi/vshop/index.php?m=default&c=goods&a=index&id=239&u=0"><img src="http://xinli.com/Chaoyi/vshop/images/201801/thumb_img/239_thumb_G_1516326887508.jpg" border="0" alt="新鲜冷冻前猪蹄500g"/></a>
-            </br>促销价：<b>￥17.00</b>
-            <p><a href="/chaoyi/vshop/index.php?m=default&c=goods&a=index&id=239&u=0" title="新鲜冷冻前猪蹄500g">新鲜冷冻前猪蹄...</a></p>
-          </li>
-        
-        <script>
-          Tday[0] = new Date("Feb 28, 2018 00:00:00");
-          window.setInterval(function()
-          {clock(0);}, 1000);
-        </script>
-                        <li>
-            <dd class="time-remain"><font class="f4" id="leftTime1">请稍等, 正在载入中...</font></dd>
-            <a href="/chaoyi/vshop/index.php?m=default&c=goods&a=index&id=225&u=0"><img src="http://xinli.com/Chaoyi/vshop/images/201712/thumb_img/225_thumb_G_1513809703374.jpg" border="0" alt="大连野生鲍鱼10个头8只"/></a>
-            </br>促销价：<b>￥68.00</b>
-            <p><a href="/chaoyi/vshop/index.php?m=default&c=goods&a=index&id=225&u=0" title="大连野生鲍鱼10个头8只">大连野生鲍鱼1...</a></p>
-          </li>
-        
-        <script>
-          Tday[1] = new Date("May 25, 2018 00:00:00");
-          window.setInterval(function()
-          {clock(1);}, 1000);
-        </script>
-                        <li>
-            <dd class="time-remain"><font class="f4" id="leftTime2">请稍等, 正在载入中...</font></dd>
-            <a href="/chaoyi/vshop/index.php?m=default&c=goods&a=index&id=226&u=0"><img src="http://xinli.com/Chaoyi/vshop/images/201712/thumb_img/226_thumb_G_1513810490059.jpg" border="0" alt="大连长白岛野生即食海参350-400g／8只"/></a>
-            </br>促销价：<b>￥98.00</b>
-            <p><a href="/chaoyi/vshop/index.php?m=default&c=goods&a=index&id=226&u=0" title="大连长白岛野生即食海参350-400g／8只">大连长白岛野生...</a></p>
-          </li>
-        
-        <script>
-          Tday[2] = new Date("Apr 23, 2018 00:00:00");
-          window.setInterval(function()
-          {clock(2);}, 1000);
-        </script>
-                        <li>
-            <dd class="time-remain"><font class="f4" id="leftTime3">请稍等, 正在载入中...</font></dd>
-            <a href="/chaoyi/vshop/index.php?m=default&c=goods&a=index&id=238&u=0"><img src="http://xinli.com/Chaoyi/vshop/images/201801/thumb_img/238_thumb_G_1514943161314.jpg" border="0" alt="泰国进口山竹（5A） 500g"/></a>
-            </br>促销价：<b>￥37.96</b>
-            <p><a href="/chaoyi/vshop/index.php?m=default&c=goods&a=index&id=238&u=0" title="泰国进口山竹（5A） 500g">泰国进口山竹（...</a></p>
-          </li>
-        
-        <script>
-          Tday[3] = new Date("Feb 25, 2018 00:00:00");
-          window.setInterval(function()
-          {clock(3);}, 1000);
-        </script>
-          </ul>
-  </div>
-</div>
+  
 	
   <div class="index-more">
   	<div class="index-more-icon">
@@ -203,11 +110,11 @@ function clock(key)
 </div>
 <footer class="index-footer comWidth">
 	<ul>
-	<li class="fl index-footer-list"><a href="/chaoyi/vshop/index.php?m=default&c=index&a=index&u=0"><i class="iconfont">&#xe621;</i><span>首页</span></a></li>
-	<li class="fl index-footer-list"><a href="/chaoyi/vshop/index.php?m=default&c=category&a=top_all&u=0"><i class="iconfont">&#xe627;</i><span>分类</span></a></li>
+	<li class="fl index-footer-list"><a href="/vshop/index.php?m=default&c=index&a=index&u=0"><i class="iconfont">&#xe621;</i><span>首页</span></a></li>
+	<li class="fl index-footer-list"><a href="/vshop/index.php?m=default&c=category&a=top_all&u=0"><i class="iconfont">&#xe627;</i><span>分类</span></a></li>
 	<li class="fl index-footer-list"><a href="javascript:openSearch();"><i class="iconfont">&#xe617;</i><span>搜索</span></a></li>
-	<li class="fl index-footer-list"><a href="/chaoyi/vshop/index.php?m=default&c=flow&a=cart&u=0"><i class="iconfont">&#xe626;</i><span>购物车</span></a></li>
-		<li class="fl index-footer-list"><a href="/chaoyi/vshop/index.php?m=default&c=user&a=index&u=0"><i class="iconfont">&#xe625;</i><span>用户中心</span></a></li>
+	<li class="fl index-footer-list"><a href="/vshop/index.php?m=default&c=flow&a=cart&u=0"><i class="iconfont">&#xe626;</i><span>购物车</span></a></li>
+		<li class="fl index-footer-list"><a href="/vshop/index.php?m=default&c=user&a=index&u=0"><i class="iconfont">&#xe625;</i><span>用户中心</span></a></li>
 		
 </ul></footer>
 </div>
@@ -216,7 +123,7 @@ function clock(key)
 		<header class="ect-header ect-margin-tb ect-margin-lr text-center"><span>搜索</span><a href="javascript:;" class="herder-close" onClick="closeSearch();">×</a></header>
 	</div>
 	<div class="ect-padding-lr">
-		<form action="/chaoyi/vshop/index.php?m=default&c=category&a=index&u=0"  method="post" id="searchForm" name="searchForm">
+		<form action="/vshop/index.php?m=default&c=category&a=index&u=0"  method="post" id="searchForm" name="searchForm">
 		<div class="input-search"> <span>
 			<input name="keywords" type="search" placeholder="请输入搜索关键词！" autofocus="autofocus" id="keywordBox">
 			</span>
@@ -238,19 +145,19 @@ function clock(key)
 	opacity: 0.6;
 }
 </style>
-<script type="text/javascript" src="/Chaoyi/vshop/data/common/js/jquery.min.js" ></script> 
-<script type="text/javascript" src="/Chaoyi/vshop/data/common/js/jquery.json.js" ></script> 
-<script type="text/javascript" src="/Chaoyi/vshop/data/common/js/common.js"></script> 
-<script type="text/javascript" src="/Chaoyi/vshop/data/common/js/jquery.more.js"></script> 
-<script type="text/javascript" src="/Chaoyi/vshop/data/common/js/utils.js" ></script> 
-<script src="/Chaoyi/vshop/data/common/swiper/js/jquery.swiper.min.js"></script>
-<script src="/Chaoyi/vshop/themes/default/js/TouchSlide.1.1.js"></script>
-<script src="/Chaoyi/vshop/themes/default/js/ectouch.js"></script> 
-<script src="/Chaoyi/vshop/themes/default/js/simple-inheritance.min.js"></script> 
-<script src="/Chaoyi/vshop/themes/default/js/code-photoswipe-1.0.11.min.js"></script> 
-<script src="/Chaoyi/vshop/data/common/bootstrap/js/bootstrap.min.js"></script> 
-<script src="/Chaoyi/vshop/themes/default/js/jquery.scrollUp.min.js"></script> 
-<script type="text/javascript" src="/Chaoyi/vshop/data/common/js/validform.js" ></script>
+<script type="text/javascript" src="/vshop/data/common/js/jquery.min.js" ></script> 
+<script type="text/javascript" src="/vshop/data/common/js/jquery.json.js" ></script> 
+<script type="text/javascript" src="/vshop/data/common/js/common.js"></script> 
+<script type="text/javascript" src="/vshop/data/common/js/jquery.more.js"></script> 
+<script type="text/javascript" src="/vshop/data/common/js/utils.js" ></script> 
+<script src="/vshop/data/common/swiper/js/jquery.swiper.min.js"></script>
+<script src="/vshop/themes/default/js/TouchSlide.1.1.js"></script>
+<script src="/vshop/themes/default/js/ectouch.js"></script> 
+<script src="/vshop/themes/default/js/simple-inheritance.min.js"></script> 
+<script src="/vshop/themes/default/js/code-photoswipe-1.0.11.min.js"></script> 
+<script src="/vshop/data/common/bootstrap/js/bootstrap.min.js"></script> 
+<script src="/vshop/themes/default/js/jquery.scrollUp.min.js"></script> 
+<script type="text/javascript" src="/vshop/data/common/js/validform.js" ></script>
 <script language="javascript">
 	/*banner滚动图片*/
 	var swiper = new Swiper('.swiper-container', {
@@ -274,7 +181,7 @@ function clock(key)
 	}
 </script>
 <script type="text/javascript">
-get_asynclist("/chaoyi/vshop/index.php?m=default&c=index&a=ajax_goods&type=best&u=0" , '__TPL__/images/loader.gif');
+get_asynclist("/vshop/index.php?m=default&c=index&a=ajax_goods&type=best&u=0" , '__TPL__/images/loader.gif');
 </script>
 <script>
 	/*banner滚动图片*/
