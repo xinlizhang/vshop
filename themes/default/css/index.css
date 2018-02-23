@@ -3385,6 +3385,7 @@ h3 {
   height: 36px;
   left: 0;
   display: block;
+  font-size: 13px;
 }
 .promotion-goods dd.time-remain em {
   font-weight: bold;
@@ -3405,6 +3406,7 @@ h3 {
   height: 100%;
 }
 .promotion-goods ul li img{margin-left:10px; width:130px; height:130px;}
+.promotion-goods ul li cxj{font-size: 13px;}
 .promotion-goods ul li b{font-weight: 600; color: #C00; font-size: 16px;line-height:33px; margin: 40px 0 10px 10px;}
 .promotion-goods ul li p{
   font-size: 14px;

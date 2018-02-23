@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="459973aa-67ea-4f72-97ee-026eb8f2e3fc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/css/index.css" afterPath="$PROJECT_DIR$/themes/default/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/library/recommend_promotion.lbi" afterPath="$PROJECT_DIR$/themes/default/library/recommend_promotion.lbi" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,23 +15,10 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/default/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="3422" column="44" lean-forward="false" selection-start-line="3422" selection-start-column="44" selection-end-line="3422" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get_library_number</find>
-      <find>fget_library_number</find>
       <find>fuget_library_number</find>
       <find>funget_library_number</find>
       <find>funcget_library_number</find>
@@ -38,8 +27,6 @@
       <find>recommend_promotion</find>
       <find>function get_library_number</find>
       <find>$promotion_goods</find>
-      <find>promotion_goods</find>
-      <find>get_promote_goods</find>
       <find>fucnget_promote_goods</find>
       <find>fucget_promote_goods</find>
       <find>fnget_promote_goods</find>
@@ -58,6 +45,10 @@
       <find>function get_promote_goods</find>
       <find>goods_name_length</find>
       <find>goods_name</find>
+      <find>promotion_goods</find>
+      <find>get_promote_goods</find>
+      <find>促销价：</find>
+      <find>_pri</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/data</dir>
@@ -77,9 +68,9 @@
         <option value="$PROJECT_DIR$/include/apps/default/models/IndexModel.class.php" />
         <option value="$PROJECT_DIR$/include/apps/default/controllers/StoreController.class.php" />
         <option value="$PROJECT_DIR$/include/apps/default/controllers/IndexController.class.php" />
-        <option value="$PROJECT_DIR$/themes/default/library/recommend_promotion.lbi" />
         <option value="$PROJECT_DIR$/admin/includes/lib_template.php" />
         <option value="$PROJECT_DIR$/themes/default/index.dwt" />
+        <option value="$PROJECT_DIR$/themes/default/library/recommend_promotion.lbi" />
         <option value="$PROJECT_DIR$/themes/default/css/index.css" />
       </list>
     </option>
@@ -105,7 +96,7 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -118,7 +109,78 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vshop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vshop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vshop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vshop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -259,34 +321,35 @@
       <workItem from="1519083306560" duration="2305000" />
       <workItem from="1519097639472" duration="9737000" />
       <workItem from="1519289075861" duration="1847000" />
-      <workItem from="1519347088148" duration="122000" />
+      <workItem from="1519347088148" duration="363000" />
+      <workItem from="1519350085740" duration="75000" />
+      <workItem from="1519362570813" duration="951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33792000" />
+    <option name="totallyTimeSpent" value="35059000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1825525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18497577" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27945206" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -298,7 +361,19 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/include/helpers/goods_helper.php</url>
+          <line>358</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/include/apps/default/models/IndexModel.class.php</url>
+          <line>112</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -515,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/helpers/goods_helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="388" column="12" lean-forward="false" selection-start-line="388" selection-start-column="12" selection-end-line="388" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/default/library/recommend_hot.lbi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -574,24 +642,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/default/index.dwt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="47" column="12" lean-forward="false" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/library/recommend_promotion.lbi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="50" column="40" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -616,18 +670,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/apps/default/models/IndexModel.class.php">
+    <entry file="file://$PROJECT_DIR$/themes/default/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="126" column="118" lean-forward="false" selection-start-line="126" selection-start-column="101" selection-end-line="126" selection-end-column="118" />
+        <state relative-caret-position="252">
+          <caret line="3419" column="24" lean-forward="true" selection-start-line="3419" selection-start-column="24" selection-end-line="3419" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/css/index.css">
+    <entry file="file://$PROJECT_DIR$/themes/default/library/recommend_promotion.lbi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="3422" column="44" lean-forward="false" selection-start-line="3422" selection-start-column="44" selection-end-line="3422" selection-end-column="44" />
+        <state relative-caret-position="203">
+          <caret line="56" column="43" lean-forward="false" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/apps/default/controllers/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/apps/default/models/IndexModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding>
+            <marker date="1519269360411" expanded="true" signature="7761:7983" ph="SELECT c.cat... ${$this-&gt;pre}" />
+            <marker date="1519269360411" expanded="true" signature="9394:9593" ph="SELECT count... ${$this-&gt;pre}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/helpers/goods_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="336" column="9" lean-forward="false" selection-start-line="336" selection-start-column="9" selection-end-line="336" selection-end-column="9" />
+          <folding>
+            <marker date="1519269354883" expanded="true" signature="469:555" ph="SELECT paren... ${$global-&gt;ecs-&gt;table('category')}" />
+            <marker date="1519269354883" expanded="true" signature="749:856" ph="SELECT count... ${$global-&gt;ecs-&gt;table('category')}" />
+            <marker date="1519269354883" expanded="true" signature="1940:2045" ph="SELECT count... ${$global-&gt;ecs-&gt;table('category')}" />
+            <marker date="1519269354883" expanded="true" signature="32235:32320" ph="SELECT cat_n... ${$global-&gt;ecs-&gt;table('category')}" />
+            <marker date="1519269354883" expanded="true" signature="35124:35212" ph="SELECT brand... ${$global-&gt;ecs-&gt;table('brand')}" />
+            <marker date="1519269354883" expanded="true" signature="35699:35772" ph="SELECT goods... ${$global-&gt;ecs-&gt;table('goods_cat')}" />
+            <marker date="1519269354883" expanded="true" signature="36902:36992" ph="SELECT SUM(a... ${$global-&gt;ecs-&gt;table('goods_attr')}" />
+            <marker date="1519269354883" expanded="true" signature="42993:43077" ph="SELECT * FRO... ${$global-&gt;ecs-&gt;table('goods_activity')}" />
+            <marker date="1519269354883" expanded="true" signature="44078:44194" ph="SELECT COUNT... ${$global-&gt;ecs-&gt;table('auction_log')}" />
+            <marker date="1519269354883" expanded="true" signature="48365:48466" ph="SELECT * FRO... ${$global-&gt;ecs-&gt;table('favourable_activity')}" />
+            <marker date="1519269354883" expanded="true" signature="49351:49442" ph="SELECT * FRO... ${$global-&gt;ecs-&gt;table('wholesale')}" />
+            <marker date="1519269354883" expanded="true" signature="54580:54702" ph="SELECT * FRO... ${$global-&gt;ecs-&gt;table('products')}" />
+            <marker date="1519269354883" expanded="true" signature="54932:55017" ph="SELECT count... " />
+          </folding>
         </state>
       </provider>
     </entry>

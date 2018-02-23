@@ -49,11 +49,13 @@ function clock(key)
   <div class="promotion-focus">
     <ul>
       <!--{foreach from=$promotion_goods key=key item=goods name="promotion_foreach"}-->
-        {if $smarty.foreach.promotion_foreach.index <= 3}
+        {if $smarty.foreach.promotion_foreach.index < 9}
           <li>
             <dd class="time-remain"><font class="f4" id="leftTime{$key}">{$lang.please_waiting}</font></dd>
             <a href="{$goods.url}"><img src="{$goods.thumb}" border="0" alt="{$goods.name|escape:html}"/></a>
-            </br>{$lang.promote_price}<b>{$goods.promote_price}</b>
+            </br>
+            <cxj>{$lang.promote_price}</cxj>
+            <b>{$goods.promote_price}</b>
             <p><a href="{$goods.url}" title="{$goods.name|escape:html}">{$goods.short_name|escape:html}</a></p>
           </li>
         {/if}
