@@ -3401,7 +3401,7 @@ h3 {
   margin-right: 4px;
   margin-bottom: -1px;
 }
-.promotion-goods ul li img{width:130px; height:130px;}
+.promotion-goods ul li img{width:85%; height:85%;}
 .promotion-goods ul li cxj{font-size: 13px;}
 .promotion-goods ul li b{/*font-weight: 600;*/ color: #C00; font-size: 16px;line-height:33px; /*margin: 40px 0 10px 10px;*/}
 .promotion-goods ul li p{
